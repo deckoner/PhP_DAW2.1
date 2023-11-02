@@ -28,10 +28,9 @@ class CRestaurante extends BaseController
     }
 
     public function platos() {
-        echo view("Vcabecera");
-
         $datos['platos'] = $this->modelo->platosConNumeroPedidos();
 
+        echo view("Vcabecera");
         echo view("VListaPlatos", $datos);
         echo view("VFormPlato");
         echo view("Vpie");
@@ -57,5 +56,61 @@ class CRestaurante extends BaseController
         echo view("Vcabecera");
         echo view("VDetallePlato", $datos);
         echo view("Vpie");
+    }
+
+    public function compo($idPlato) {
+        $this->session->set('platoSelecionado', $this->modelo->plato($idPlato));
+        $this->session->set('nuevosIgredientes', []);
+        $this->session->set('platoIngredientes', $this->modelo->ingredientesPlato($idPlato));
+        $this->session->set('platoNoIngredientes', $this->modelo->ingredientesNoPlato($idPlato));
+
+        $datoPlato['platos'] = $this->modelo->platosConNumeroPedidos();
+
+        echo view("Vcabecera");
+        echo view("VListaPlatos", $datoPlato);
+        echo view("VDetallePlato2");
+        echo view("VQuitaPonIngredientes");
+        echo view("Vpie");
+    }
+
+    public function anadeIngrediente() {
+        if ($this->request->getPost('submitAnadirIngrediente')) {
+            $idIgrediente = $this->request->getPost('ingrediente'); 
+
+            if (in_array($idIgrediente, $this->session->get('nuevosIgredientes'))) {
+                $arr = $this->session->get('nuevosIgredientes');
+                $arr[] = $idIgrediente;
+                $this->session->set('nuevosIgredientes', $arr);
+            }
+
+        }
+
+        if ($this->request->getPost('submitQuitarIngrediente')) {
+            $idIgrediente = $this->request->getPost('ingrediente'); 
+
+            if (in_array($idIgrediente, $this->session->get('nuevosIgredientes'))) {
+                $arr = $this->session->get('nuevosIgredientes');
+
+                $idArr = array_search($idIgrediente, $arr);
+                unset($arr[$idArr]);
+
+                $this->session->set('nuevosIgredientes', $arr);
+            }
+
+        }
+
+        echo view("Vcabecera");
+        echo view("VDetallePlato2");
+        echo view("VQuitaPonIngredientes");
+        echo view("Vpie");
+    }
+
+    public function grabarIngredientes() {
+        $idPlato = $this->session->get('platoSelecionado');
+        $nuevoIngrediente = $this->session->get('nuevosIgredientes');
+
+        foreach($nuevoIngrediente as $idingrediente) {
+            $this->modelo->insertarIngredientePlato($idPlato, $idingrediente);
+        }
     }
 }

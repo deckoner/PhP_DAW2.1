@@ -1,6 +1,6 @@
 <?php 
 
-echo "<table>
+echo "<table border='1'>
 <tr>
     <td>Nombre</td>
     <td>Precio</td>
@@ -14,6 +14,7 @@ foreach ($platos as $p) {
             <td>$p->precio</td>
             <td>$p->repetidos</td>";
     echo '<td>'.anchor(site_url()."/verdetalle/".$p->idPlato, "ver detalle").'</td>
+         <td>'.anchor(site_url()."/compo/".$p->idPlato, "ver detalle").'</td>
     </tr>';
 }
 

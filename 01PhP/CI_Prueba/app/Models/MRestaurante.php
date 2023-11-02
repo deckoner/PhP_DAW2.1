@@ -17,7 +17,6 @@ class MRestaurante extends Model {
         return $resultados->getResultObject();
     }
 
-
     public function platosSinPedir() {
 
         $consulta = "SELECT count(*) as numero FROM platos 
@@ -62,6 +61,13 @@ class MRestaurante extends Model {
     }
 
     public function plato($idPlato) {
+        $consulta = "SELECT idPlato, nombre, precio, fecha FROM platos WHERE idPlato = $idPlato";
+        $resultados = $this->db->query($consulta);
+
+        return $resultados->getRowObject();
+    }
+
+    public function platoConImagen($idPlato) {
         $consulta = "SELECT * FROM platos WHERE idPlato = $idPlato";
         $resultados = $this->db->query($consulta);
 
@@ -74,6 +80,26 @@ class MRestaurante extends Model {
             WHERE c.idPlato = $idPlato AND c.idIngrediente = i.idIngrediente";
         $resultados = $this->db->query($consulta);
 
+        return $resultados->getResultObject();
+    }
+
+    public function ingredientesNoPlato($idPlato) {
+        $consulta = "SELECT i.nombre as nombre, i.idIngrediente as idIngrediente
+            FROM ingredientes as i 
+            WHERE i.idIngrediente NOT IN (
+                SELECT c.idIngrediente 
+                FROM composicion as c
+                WHERE c.idPlato = $idPlato
+            )";
+        $resultados = $this->db->query($consulta);
+    
+        return $resultados->getResultObject();
+    }
+
+    public function insertarIngredientePlato($idPlato, $idIngrediente) {
+        $consulta = "INSERT INTO composicion(idPlato, idIngrediente) VALUE ($idPlato, $idIngrediente)";
+        $resultados = $this->db->query($consulta);
+    
         return $resultados->getResultObject();
     }
 }
