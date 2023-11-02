@@ -1,0 +1,80 @@
+CRITICAL - 2023-10-31 10:56:44 --> Undefined variable $platoIngredientes
+in APPPATH\Views\VDetallePlato2.php on line 10.
+ 1 APPPATH\Views\VDetallePlato2.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $platoIngredientes', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato2.php', 10)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato2.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VDetallePlato2', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(67): view('VDetallePlato2')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->compo('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 11:27:55 --> in_array(): Argument #2 ($haystack) must be of type array, string given
+in APPPATH\Controllers\CRestaurante.php on line 80.
+ 1 APPPATH\Controllers\CRestaurante.php(80): in_array([], '5')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->anadeIngrediente()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 11:28:25 --> Undefined variable $idPlato
+in APPPATH\Controllers\CRestaurante.php on line 89.
+ 1 APPPATH\Controllers\CRestaurante.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idPlato', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Controllers\\CRestaurante.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->anadeIngrediente()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 11:36:07 --> Undefined variable $platos
+in APPPATH\Views\VListaPlatos.php on line 11.
+ 1 APPPATH\Views\VListaPlatos.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $platos', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VListaPlatos.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VListaPlatos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VListaPlatos', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(105): view('VListaPlatos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->anadeIngrediente()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 11:36:20 --> Undefined variable $platoIngredientes
+in APPPATH\Views\VDetallePlato2.php on line 14.
+ 1 APPPATH\Views\VDetallePlato2.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $platoIngredientes', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato2.php', 14)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato2.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VDetallePlato2', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(105): view('VDetallePlato2')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->anadeIngrediente()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 11:39:43 --> Undefined variable $sesion
+in APPPATH\Views\VQuitaPonIngredientes.php on line 2.
+ 1 APPPATH\Views\VQuitaPonIngredientes.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sesion', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VQuitaPonIngredientes.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VQuitaPonIngredientes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VQuitaPonIngredientes', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(72): view('VQuitaPonIngredientes')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->compo('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 11:39:44 --> Undefined variable $sesion
+in APPPATH\Views\VQuitaPonIngredientes.php on line 2.
+ 1 APPPATH\Views\VQuitaPonIngredientes.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sesion', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VQuitaPonIngredientes.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VQuitaPonIngredientes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VQuitaPonIngredientes', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(72): view('VQuitaPonIngredientes')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->compo('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 11:39:48 --> Undefined variable $sesion
+in APPPATH\Views\VQuitaPonIngredientes.php on line 2.
+ 1 APPPATH\Views\VQuitaPonIngredientes.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sesion', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VQuitaPonIngredientes.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VQuitaPonIngredientes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VQuitaPonIngredientes', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(72): view('VQuitaPonIngredientes')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->compo('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

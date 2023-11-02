@@ -1,0 +1,12 @@
+Atun segundo 30
+cachopoAstur segundo 60
+minicachopito segundo 30
+ensalada primero 15
+secreto primero 20
+algo primero 20
+tiramisu postre 10
+tiramisuXXL postre 35
+helado postre 15
+cocacola bebida 3
+vino bebida 10
+agua_jamaica 20

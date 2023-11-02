@@ -1,0 +1,10 @@
+aaa	 
+    aaa                 
+                Libros leidos:Otelo,Romeo y Julieta,,lo recomienda
+bbb	bbb               
+                 
+                Libros leidos:Otelo,Romeo y Julieta,El mercader,NO lo recomienda
+ccc	ccc
+                 
+                 
+                Libros leidos:Hamlet,Otelo,,lo recomienda

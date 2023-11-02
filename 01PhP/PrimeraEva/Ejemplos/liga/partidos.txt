@@ -1,0 +1,4 @@
+celta;real sociedad
+alaves;osasuna
+athletic;sevilla
+elche;barcelona

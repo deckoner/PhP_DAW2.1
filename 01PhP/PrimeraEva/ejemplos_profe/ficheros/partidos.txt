@@ -1,0 +1,4 @@
+Celta;Real Sociedad
+Alaves;Osasuna;2
+Athletic;Sevilla;X
+Elche;Barcelona

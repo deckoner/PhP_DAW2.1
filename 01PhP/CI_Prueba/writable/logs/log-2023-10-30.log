@@ -1,0 +1,431 @@
+CRITICAL - 2023-10-30 09:42:44 --> Undefined variable $p
+in APPPATH\Views\VListaPlatos.php on line 12.
+ 1 APPPATH\Views\VListaPlatos.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VListaPlatos.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VListaPlatos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VListaPlatos', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(35): view('VListaPlatos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->platos()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 09:55:34 --> Undefined variable $p
+in APPPATH\Views\VListaPlatos.php on line 12.
+ 1 APPPATH\Views\VListaPlatos.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VListaPlatos.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VListaPlatos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VListaPlatos', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(36): view('VListaPlatos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->platos()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 09:56:24 --> Call to undefined function form_open()
+in APPPATH\Views\VFormPlato.php on line 3.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VFormPlato', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(37): view('VFormPlato')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->platos()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 09:57:31 --> Call to undefined function strFechaHoy()
+in APPPATH\Views\VFormPlato.php on line 12.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VFormPlato', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(37): view('VFormPlato')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->platos()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 09:58:49 --> Call to undefined function strFechaHoy()
+in APPPATH\Views\VFormPlato.php on line 12.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VFormPlato', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(36): view('VFormPlato')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->platos()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 09:58:50 --> Call to undefined function strFechaHoy()
+in APPPATH\Views\VFormPlato.php on line 12.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VFormPlato', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(36): view('VFormPlato')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->platos()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 09:58:50 --> Call to undefined function strFechaHoy()
+in APPPATH\Views\VFormPlato.php on line 12.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VFormPlato', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(36): view('VFormPlato')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->platos()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 09:58:51 --> Call to undefined function strFechaHoy()
+in APPPATH\Views\VFormPlato.php on line 12.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VFormPlato', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(36): view('VFormPlato')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->platos()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 09:58:51 --> Call to undefined function strFechaHoy()
+in APPPATH\Views\VFormPlato.php on line 12.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VFormPlato', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(36): view('VFormPlato')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->platos()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 09:58:51 --> Call to undefined function strFechaHoy()
+in APPPATH\Views\VFormPlato.php on line 12.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VFormPlato', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(36): view('VFormPlato')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->platos()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 10:48:01 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pl...', 0)
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\01PhP\CI_Prueba\app\Models\MRestaurante.php(59): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...')
+#4 C:\xampp\htdocs\01PhP\CI_Prueba\app\Controllers\CRestaurante.php(47): App\Models\MRestaurante->insertarPlato('2023-10-30', '100', NULL)
+#5 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(942): App\Controllers\CRestaurante->anadirPlato()
+#6 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+#7 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\01PhP\CI_Prueba\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 10:48:01 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\MRestaurante.php(59): CodeIgniter\Database\BaseConnection->query('INSERT INTO `platos` (`nombre`, `precio`, `fecha`) 
+                    VALUES (NULL, \'2023-10-30\', \'100\', \'\') ')
+ 2 APPPATH\Controllers\CRestaurante.php(47): App\Models\MRestaurante->insertarPlato('2023-10-30', '100', null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->anadirPlato()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 10:48:51 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pl...', 0)
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\01PhP\CI_Prueba\app\Models\MRestaurante.php(59): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...')
+#4 C:\xampp\htdocs\01PhP\CI_Prueba\app\Controllers\CRestaurante.php(47): App\Models\MRestaurante->insertarPlato('fadsfa', '235', '2023-10-30')
+#5 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(942): App\Controllers\CRestaurante->anadirPlato()
+#6 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+#7 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\01PhP\CI_Prueba\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 10:48:51 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\MRestaurante.php(59): CodeIgniter\Database\BaseConnection->query('INSERT INTO `platos` (`nombre`, `precio`, `fecha`) 
+                    VALUES (NULL, \'fadsfa\', \'235\', \'2023-10-30\') ')
+ 2 APPPATH\Controllers\CRestaurante.php(47): App\Models\MRestaurante->insertarPlato('fadsfa', '235', '2023-10-30')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->anadirPlato()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:13:23 --> Too few arguments to function App\Controllers\CRestaurante::verDetalle(), 0 passed in C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\CRestaurante.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:13:42 --> Too few arguments to function App\Controllers\CRestaurante::verDetalle(), 0 passed in C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\CRestaurante.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:15:36 --> Too few arguments to function App\Controllers\CRestaurante::verDetalle(), 0 passed in C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\CRestaurante.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 11:17:32 --> mysqli_sql_exception: Unknown column '$i' in 'where clause' in C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT idPlato,...', 0)
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idPlato,...')
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idPlato,...')
+#3 C:\xampp\htdocs\01PhP\CI_Prueba\app\Models\MRestaurante.php(66): CodeIgniter\Database\BaseConnection->query('SELECT idPlato,...')
+#4 C:\xampp\htdocs\01PhP\CI_Prueba\app\Controllers\CRestaurante.php(54): App\Models\MRestaurante->plato('$i')
+#5 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('$i')
+#6 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+#7 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\01PhP\CI_Prueba\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 11:17:32 --> Unknown column '$i' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\MRestaurante.php(66): CodeIgniter\Database\BaseConnection->query('SELECT idPlato, nombre, precio, fecha FROM platos WHERE idPlato = $i')
+ 2 APPPATH\Controllers\CRestaurante.php(54): App\Models\MRestaurante->plato('$i')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('$i')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 11:18:02 --> mysqli_sql_exception: Unknown column '$idPlato' in 'where clause' in C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT idPlato,...', 0)
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idPlato,...')
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idPlato,...')
+#3 C:\xampp\htdocs\01PhP\CI_Prueba\app\Models\MRestaurante.php(66): CodeIgniter\Database\BaseConnection->query('SELECT idPlato,...')
+#4 C:\xampp\htdocs\01PhP\CI_Prueba\app\Controllers\CRestaurante.php(54): App\Models\MRestaurante->plato('$idPlato')
+#5 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('$idPlato')
+#6 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+#7 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\01PhP\CI_Prueba\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 11:18:02 --> Unknown column '$idPlato' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\MRestaurante.php(66): CodeIgniter\Database\BaseConnection->query('SELECT idPlato, nombre, precio, fecha FROM platos WHERE idPlato = $idPlato')
+ 2 APPPATH\Controllers\CRestaurante.php(54): App\Models\MRestaurante->plato('$idPlato')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('$idPlato')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 11:18:03 --> mysqli_sql_exception: Unknown column '$idPlato' in 'where clause' in C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT idPlato,...', 0)
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT idPlato,...')
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT idPlato,...')
+#3 C:\xampp\htdocs\01PhP\CI_Prueba\app\Models\MRestaurante.php(66): CodeIgniter\Database\BaseConnection->query('SELECT idPlato,...')
+#4 C:\xampp\htdocs\01PhP\CI_Prueba\app\Controllers\CRestaurante.php(54): App\Models\MRestaurante->plato('$idPlato')
+#5 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('$idPlato')
+#6 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+#7 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\01PhP\CI_Prueba\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 11:18:03 --> Unknown column '$idPlato' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\MRestaurante.php(66): CodeIgniter\Database\BaseConnection->query('SELECT idPlato, nombre, precio, fecha FROM platos WHERE idPlato = $idPlato')
+ 2 APPPATH\Controllers\CRestaurante.php(54): App\Models\MRestaurante->plato('$idPlato')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('$idPlato')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 11:19:11 --> mysqli_sql_exception: Unknown column 'i.idPlato' in 'where clause' in C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT c.idPlat...', 0)
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.idPlat...')
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.idPlat...')
+#3 C:\xampp\htdocs\01PhP\CI_Prueba\app\Models\MRestaurante.php(75): CodeIgniter\Database\BaseConnection->query('SELECT c.idPlat...')
+#4 C:\xampp\htdocs\01PhP\CI_Prueba\app\Controllers\CRestaurante.php(55): App\Models\MRestaurante->ingredientesPlato('2')
+#5 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+#6 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+#7 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\01PhP\CI_Prueba\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 11:19:11 --> Unknown column 'i.idPlato' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\MRestaurante.php(75): CodeIgniter\Database\BaseConnection->query('SELECT c.idPlato, i.nombre as nombre, c.cantidad as cantidad
+            FROM composicion as c, ingredientes as i 
+            WHERE c.idPlato = 2 AND c.idPlato = i.idPlato')
+ 2 APPPATH\Controllers\CRestaurante.php(55): App\Models\MRestaurante->ingredientesPlato('2')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 11:19:19 --> mysqli_sql_exception: Unknown column 'i.idPlato' in 'where clause' in C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT c.idPlat...', 0)
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.idPlat...')
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.idPlat...')
+#3 C:\xampp\htdocs\01PhP\CI_Prueba\app\Models\MRestaurante.php(75): CodeIgniter\Database\BaseConnection->query('SELECT c.idPlat...')
+#4 C:\xampp\htdocs\01PhP\CI_Prueba\app\Controllers\CRestaurante.php(55): App\Models\MRestaurante->ingredientesPlato('2')
+#5 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+#6 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+#7 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\01PhP\CI_Prueba\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 11:19:19 --> Unknown column 'i.idPlato' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\MRestaurante.php(75): CodeIgniter\Database\BaseConnection->query('SELECT c.idPlato, i.nombre as nombre, c.cantidad as cantidad
+            FROM composicion as c, ingredientes as i 
+            WHERE c.idPlato = 2 AND c.idPlato = i.idPlato')
+ 2 APPPATH\Controllers\CRestaurante.php(55): App\Models\MRestaurante->ingredientesPlato('2')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 11:19:28 --> mysqli_sql_exception: Unknown column 'i.idPlato' in 'where clause' in C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT c.idPlat...', 0)
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.idPlat...')
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.idPlat...')
+#3 C:\xampp\htdocs\01PhP\CI_Prueba\app\Models\MRestaurante.php(75): CodeIgniter\Database\BaseConnection->query('SELECT c.idPlat...')
+#4 C:\xampp\htdocs\01PhP\CI_Prueba\app\Controllers\CRestaurante.php(55): App\Models\MRestaurante->ingredientesPlato('2')
+#5 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+#6 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+#7 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\01PhP\CI_Prueba\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 11:19:28 --> Unknown column 'i.idPlato' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\MRestaurante.php(75): CodeIgniter\Database\BaseConnection->query('SELECT c.idPlato, i.nombre as nombre, c.cantidad as cantidad
+            FROM composicion as c, ingredientes as i 
+            WHERE c.idPlato = 2 AND c.idPlato = i.idPlato')
+ 2 APPPATH\Controllers\CRestaurante.php(55): App\Models\MRestaurante->ingredientesPlato('2')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:22:10 --> Attempt to read property "nombre" on array
+in APPPATH\Views\VDetallePlato.php on line 6.
+ 1 APPPATH\Views\VDetallePlato.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VDetallePlato', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(58): view('VDetallePlato', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:22:30 --> Attempt to read property "nombre" on array
+in APPPATH\Views\VDetallePlato.php on line 6.
+ 1 APPPATH\Views\VDetallePlato.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VDetallePlato', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(58): view('VDetallePlato', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:22:33 --> Attempt to read property "nombre" on array
+in APPPATH\Views\VDetallePlato.php on line 6.
+ 1 APPPATH\Views\VDetallePlato.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VDetallePlato', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(58): view('VDetallePlato', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:24:05 --> Attempt to read property "nombre" on array
+in APPPATH\Views\VDetallePlato.php on line 6.
+ 1 APPPATH\Views\VDetallePlato.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VDetallePlato', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(58): view('VDetallePlato', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:25:43 --> Attempt to read property "nombre" on array
+in APPPATH\Views\VDetallePlato.php on line 6.
+ 1 APPPATH\Views\VDetallePlato.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VDetallePlato', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(58): view('VDetallePlato', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:26:27 --> Undefined array key "nombre"
+in APPPATH\Views\VDetallePlato.php on line 6.
+ 1 APPPATH\Views\VDetallePlato.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VDetallePlato', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(58): view('VDetallePlato', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:27:15 --> Undefined array key "nombre"
+in APPPATH\Views\VDetallePlato.php on line 6.
+ 1 APPPATH\Views\VDetallePlato.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VDetallePlato', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(58): view('VDetallePlato', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:27:17 --> Undefined array key "nombre"
+in APPPATH\Views\VDetallePlato.php on line 6.
+ 1 APPPATH\Views\VDetallePlato.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VDetallePlato', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(58): view('VDetallePlato', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:27:18 --> Undefined array key "nombre"
+in APPPATH\Views\VDetallePlato.php on line 6.
+ 1 APPPATH\Views\VDetallePlato.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VDetallePlato', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(58): view('VDetallePlato', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:27:19 --> Undefined array key "nombre"
+in APPPATH\Views\VDetallePlato.php on line 6.
+ 1 APPPATH\Views\VDetallePlato.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VDetallePlato', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(58): view('VDetallePlato', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:28:10 --> Undefined array key "nombre"
+in APPPATH\Views\VDetallePlato.php on line 8.
+ 1 APPPATH\Views\VDetallePlato.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VDetallePlato', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(58): view('VDetallePlato', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:30:06 --> Attempt to read property "nombre" on array
+in APPPATH\Views\VDetallePlato.php on line 8.
+ 1 APPPATH\Views\VDetallePlato.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VDetallePlato', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(58): view('VDetallePlato', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 11:30:07 --> Attempt to read property "nombre" on array
+in APPPATH\Views\VDetallePlato.php on line 8.
+ 1 APPPATH\Views\VDetallePlato.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VDetallePlato.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VDetallePlato', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(58): view('VDetallePlato', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->verDetalle('2')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,710 @@
+CRITICAL - 2023-10-27 10:18:45 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-27 10:18:45 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\01PhP\CI_Prueba\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\Helpers\number_helper.php(55): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(145): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\Exceptions.php(148): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-27 10:20:42 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-27 10:20:42 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\01PhP\CI_Prueba\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\Helpers\number_helper.php(55): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(145): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\Exceptions.php(148): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-27 10:20:43 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-27 10:20:43 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\01PhP\CI_Prueba\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\Helpers\number_helper.php(55): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(145): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\Exceptions.php(148): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-27 10:20:43 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-27 10:20:43 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\01PhP\CI_Prueba\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\Helpers\number_helper.php(55): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(145): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\Exceptions.php(148): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-27 10:20:43 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-27 10:20:43 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\01PhP\CI_Prueba\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\Helpers\number_helper.php(55): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(145): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\Exceptions.php(148): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-27 10:20:44 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-27 10:20:44 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\01PhP\CI_Prueba\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\Helpers\number_helper.php(55): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(145): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\01PhP\CI_Prueba\system\Debug\Exceptions.php(148): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-27 08:25:27 --> App\Controllers\cSaludador::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\cSaludador.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 08:28:09 --> Too few arguments to function App\Controllers\cSaludador::adios(), 0 passed in C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\cSaludador.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->adios()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 08:28:10 --> Too few arguments to function App\Controllers\cSaludador::adios(), 0 passed in C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\cSaludador.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->adios()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 08:28:58 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Controllers\cSaludador.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-27 08:29:10 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Controllers\cSaludador.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-27 08:29:14 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Controllers\cSaludador.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-27 08:29:19 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Controllers\cSaludador.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-27 08:56:00 --> Too few arguments to function App\Controllers\cSaludador::saludarIdioma(), 0 passed in C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\cSaludador.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 08:56:24 --> Class "MmodeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:00:21 --> Class "ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:00:22 --> Class "ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:00:23 --> Class "ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:00:23 --> Class "ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:00:23 --> Class "ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:00:23 --> Class "ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:00:24 --> Class "ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:00:51 --> Class "ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:01:13 --> Class "CodeIgniter\Model\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:01:14 --> Class "CodeIgniter\Model\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:01:14 --> Class "CodeIgniter\Model\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:30:28 --> Class "ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:30:51 --> Class "Model\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:30:52 --> Class "Model\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:31:04 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:31:05 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:31:35 --> Class "CodeIgniter\Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:31:36 --> Class "CodeIgniter\Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:32:29 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:33:02 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:33:04 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:33:33 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:34:33 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:34:34 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:34:35 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:34:35 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:34:48 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:34:49 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:34:49 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:34:49 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:34:49 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:34:49 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:35:17 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:35:17 --> Class "Models\ModeloSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:36:06 --> Class "MSaludador" not found
+in APPPATH\Controllers\cSaludador.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:36:21 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Vsaludar.php on line 5.
+ 1 APPPATH\Views\Vsaludar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Vsaludar', [], true)
+ 5 APPPATH\Controllers\cSaludador.php(34): view('Vsaludar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:36:51 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Vsaludar.php on line 3.
+ 1 APPPATH\Views\Vsaludar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Vsaludar', [], true)
+ 5 APPPATH\Controllers\cSaludador.php(34): view('Vsaludar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:36:52 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Vsaludar.php on line 3.
+ 1 APPPATH\Views\Vsaludar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Vsaludar', [], true)
+ 5 APPPATH\Controllers\cSaludador.php(34): view('Vsaludar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:38:50 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Vsaludar.php on line 3.
+ 1 APPPATH\Views\Vsaludar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Vsaludar', [], true)
+ 5 APPPATH\Controllers\cSaludador.php(34): view('Vsaludar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:38:51 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Vsaludar.php on line 3.
+ 1 APPPATH\Views\Vsaludar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Vsaludar', [], true)
+ 5 APPPATH\Controllers\cSaludador.php(34): view('Vsaludar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:38:51 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Vsaludar.php on line 3.
+ 1 APPPATH\Views\Vsaludar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Vsaludar', [], true)
+ 5 APPPATH\Controllers\cSaludador.php(34): view('Vsaludar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:38:51 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Vsaludar.php on line 3.
+ 1 APPPATH\Views\Vsaludar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Vsaludar', [], true)
+ 5 APPPATH\Controllers\cSaludador.php(34): view('Vsaludar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:38:52 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Vsaludar.php on line 3.
+ 1 APPPATH\Views\Vsaludar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Vsaludar', [], true)
+ 5 APPPATH\Controllers\cSaludador.php(34): view('Vsaludar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('es')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:39:32 --> Too few arguments to function App\Controllers\cSaludador::saludarIdioma(), 0 passed in C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\cSaludador.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:39:40 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Vsaludar.php on line 3.
+ 1 APPPATH\Views\Vsaludar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Vsaludar', [], true)
+ 5 APPPATH\Controllers\cSaludador.php(34): view('Vsaludar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('eus')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:40:32 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Vsaludar.php on line 4.
+ 1 APPPATH\Views\Vsaludar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Vsaludar', [], true)
+ 5 APPPATH\Controllers\cSaludador.php(34): view('Vsaludar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('eus')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:40:33 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Vsaludar.php on line 4.
+ 1 APPPATH\Views\Vsaludar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Vsaludar', [], true)
+ 5 APPPATH\Controllers\cSaludador.php(34): view('Vsaludar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('eus')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:51:18 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\Vsaludar.php on line 4.
+ 1 APPPATH\Views\Vsaludar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\Vsaludar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Vsaludar', [], true)
+ 5 APPPATH\Controllers\cSaludador.php(34): view('Vsaludar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\cSaludador->saludarIdioma('eus')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cSaludador))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:57:18 --> mysqli_sql_exception: Unknown column 'precrio' in 'field list' in C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp\htdocs\01PhP\CI_Prueba\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp\htdocs\01PhP\CI_Prueba\app\Models\MRestaurante.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp\htdocs\01PhP\CI_Prueba\app\Controllers\CRestaurante.php(12): App\Models\MRestaurante->platosCaros()
+#5 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(942): App\Controllers\CRestaurante->index()
+#6 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+#7 C:\xampp\htdocs\01PhP\CI_Prueba\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\01PhP\CI_Prueba\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-27 09:57:18 --> Unknown column 'precrio' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\MRestaurante.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM platos WHERE (SELECT avg(precrio) from platos)')
+ 2 APPPATH\Controllers\CRestaurante.php(12): App\Models\MRestaurante->platosCaros()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 10:02:30 --> Undefined property: stdClass::$nombre
+in APPPATH\Views\VPlatosCaros.php on line 9.
+ 1 APPPATH\Views\VPlatosCaros.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VPlatosCaros.php', 9)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VPlatosCaros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VPlatosCaros', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(29): view('VPlatosCaros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->platosSinPedir()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 10:06:22 --> Array to string conversion
+in APPPATH\Views\VPlatosCaros.php on line 15.
+ 1 APPPATH\Views\VPlatosCaros.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VPlatosCaros.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VPlatosCaros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VPlatosCaros', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(19): view('VPlatosCaros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 10:06:38 --> Array to string conversion
+in APPPATH\Views\VPlatosCaros.php on line 15.
+ 1 APPPATH\Views\VPlatosCaros.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VPlatosCaros.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VPlatosCaros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VPlatosCaros', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(19): view('VPlatosCaros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 10:06:39 --> Array to string conversion
+in APPPATH\Views\VPlatosCaros.php on line 15.
+ 1 APPPATH\Views\VPlatosCaros.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VPlatosCaros.php', 15)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\01PhP\\CI_Prueba\\app\\Views\\VPlatosCaros.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VPlatosCaros', [], true)
+ 5 APPPATH\Controllers\CRestaurante.php(19): view('VPlatosCaros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 10:06:56 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\VPlatosCaros.php on line 15.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VPlatosCaros', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(19): view('VPlatosCaros', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 10:06:57 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\VPlatosCaros.php on line 15.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VPlatosCaros', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(19): view('VPlatosCaros', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 10:07:14 --> Cannot use object of type stdClass as array
+in APPPATH\Views\VPlatosCaros.php on line 15.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VPlatosCaros', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(19): view('VPlatosCaros', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 10:07:16 --> Cannot use object of type stdClass as array
+in APPPATH\Views\VPlatosCaros.php on line 15.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VPlatosCaros', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(19): view('VPlatosCaros', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 10:07:16 --> Cannot use object of type stdClass as array
+in APPPATH\Views\VPlatosCaros.php on line 15.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VPlatosCaros', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(19): view('VPlatosCaros', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 10:07:16 --> Cannot use object of type stdClass as array
+in APPPATH\Views\VPlatosCaros.php on line 15.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VPlatosCaros', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(19): view('VPlatosCaros', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 10:07:17 --> Cannot use object of type stdClass as array
+in APPPATH\Views\VPlatosCaros.php on line 15.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VPlatosCaros', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(19): view('VPlatosCaros', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 10:07:17 --> Cannot use object of type stdClass as array
+in APPPATH\Views\VPlatosCaros.php on line 15.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VPlatosCaros', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(19): view('VPlatosCaros', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 10:07:17 --> Cannot use object of type stdClass as array
+in APPPATH\Views\VPlatosCaros.php on line 15.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VPlatosCaros', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(19): view('VPlatosCaros', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 10:07:17 --> Cannot use object of type stdClass as array
+in APPPATH\Views\VPlatosCaros.php on line 15.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('VPlatosCaros', [], true)
+ 4 APPPATH\Controllers\CRestaurante.php(19): view('VPlatosCaros', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CRestaurante->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CRestaurante))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

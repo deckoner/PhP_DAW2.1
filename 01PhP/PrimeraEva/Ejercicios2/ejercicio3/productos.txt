@@ -1,0 +1,7 @@
+Tornillo TY200;0.15
+Arandela;0.03
+Bisagra HG209;1.34
+Llave Allen;0,6
+Tornillo 4/2;10,3
+tornilllo 2/6;10.4
+Tornillo;1.04
