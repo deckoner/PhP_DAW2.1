@@ -15,5 +15,3 @@ $routes->get('/compo/(:any)', 'CRestaurante::compo/$1');
 
 $routes->post('/anadieQuitaIngrediente', 'CRestaurante::anadeIngrediente');
 $routes->get('/grabarNuevosIngredientes', 'CRestaurante::grabarIngredientes');
-
-

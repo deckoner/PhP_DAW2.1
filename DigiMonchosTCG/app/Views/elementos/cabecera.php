@@ -7,3 +7,6 @@
     <title>La Posada Del Tamer: <?php echo $tituloPagina ?></title>
 </head>
 <body>
+    <nav>
+        
+    </nav>

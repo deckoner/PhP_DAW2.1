@@ -2,12 +2,42 @@
 namespace App\Models;
 use CodeIgniter\Model;
 
-class MRestaurante extends Model {
+class M_digimonTCG extends Model {
     protected $db;
 
     public function __construct() {
         $this->db=db_connect(); // Se conecta a la base de datos por defecto
     }
+
+    // !Comprobaciones
+    public function comprobarNombreUser($nombre) {
+        $consulta = "SELECT usuario FROM usuarios WHERE usuario = $nombre";
+        $resultados = $this->db->query($consulta);
+
+        // Comprobamos si el nombre de usuario estal ibre
+        if ($resultados->getNumRows() > 0) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    // !Insertar datos
+    public function insertarUsuario($nombre, $contra, $email) {
+        $consulta = "INSERT INTO `usuarios` (`usuario`, `contrasena`, `email`, 'rol') 
+            VALUES ('$nombre', '$contra', '$email', 'USER') ";
+
+        $this->db->query($consulta);
+
+        return $this->db->insertID();
+    }
+
+
+
+
+
+
+    
 
     public function platosCaros() {
 

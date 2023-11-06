@@ -1,0 +1,20 @@
+ERROR - 2023-11-03 11:35:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT usuario ...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT usuario ...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT usuario ...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(15): CodeIgniter\Database\BaseConnection->query('SELECT usuario ...')
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_login.php(48): App\Models\M_digimonTCG->comprobarNombreUser('')
+#5 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-03 11:35:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\M_digimonTCG.php(15): CodeIgniter\Database\BaseConnection->query('SELECT usuario FROM usuarios WHERE usuario = ')
+ 2 APPPATH\Controllers\C_login.php(48): App\Models\M_digimonTCG->comprobarNombreUser('')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
