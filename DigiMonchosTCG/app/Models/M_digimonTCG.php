@@ -7,28 +7,52 @@ class M_digimonTCG extends Model {
 
     public function __construct() {
         $this->db=db_connect(); // Se conecta a la base de datos por defecto
+        helper("util");
     }
 
     // !Comprobaciones
     public function comprobarNombreUser($nombre) {
-        $consulta = "SELECT usuario FROM usuarios WHERE usuario = $nombre";
-        $resultados = $this->db->query($consulta);
-
-        // Comprobamos si el nombre de usuario estal ibre
-        if ($resultados->getNumRows() > 0) {
+        $query = $this->db->table('usuarios')
+                        ->where('usuario', $nombre)
+                        ->get();
+    
+        // Comprobamos si el nombre de usuario está libre
+        if ($query->getNumRows() > 0) {
             return false;
         } else {
             return true;
         }
     }
 
+    public function comprobarLogin($nombre, $contra) {
+        $query = $this->db->table('usuarios')
+                        ->select('id, usuario, rol, contrasena')
+                        ->where('usuario', $nombre)
+                        ->get();
+    
+        // Comprobamos si ha dado algun resultado
+        if ($query->getNumRows() > 0) {
+            $user = $query->getRowObject();
+            if (comprobarContra($contra, $user->contrasena)) {
+                return $user;
+            }
+        }
+        
+        // Devolvemos Null ya sea por que no ahi user o no coincide user y contra
+        return null;
+    }
+
     // !Insertar datos
     public function insertarUsuario($nombre, $contra, $email) {
-        $consulta = "INSERT INTO `usuarios` (`usuario`, `contrasena`, `email`, 'rol') 
-            VALUES ('$nombre', '$contra', '$email', 'USER') ";
-
-        $this->db->query($consulta);
-
+        $data = [
+            'usuario' => $nombre,
+            'contrasena' => $contra,
+            'email' => $email,
+            'rol' => 'USER'
+        ];
+    
+        $this->db->table('usuarios')->insert($data);
+    
         return $this->db->insertID();
     }
 

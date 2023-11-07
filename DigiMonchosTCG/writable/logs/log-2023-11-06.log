@@ -1,0 +1,375 @@
+ERROR - 2023-11-06 09:13:05 --> mysqli_sql_exception: Table 'restaurante.usuarios' doesn't exist in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT usuario ...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT usuario ...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT usuario ...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(15): CodeIgniter\Database\BaseConnection->query('SELECT usuario ...')
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_login.php(48): App\Models\M_digimonTCG->comprobarNombreUser('DestroyGK')
+#5 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-06 09:13:05 --> Table 'restaurante.usuarios' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\M_digimonTCG.php(15): CodeIgniter\Database\BaseConnection->query('SELECT usuario FROM usuarios WHERE usuario = DestroyGK')
+ 2 APPPATH\Controllers\C_login.php(48): App\Models\M_digimonTCG->comprobarNombreUser('DestroyGK')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-06 09:32:19 --> mysqli_sql_exception: Table 'restaurante.usuarios' doesn't exist in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT usuario ...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT usuario ...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT usuario ...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(15): CodeIgniter\Database\BaseConnection->query('SELECT usuario ...')
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_login.php(51): App\Models\M_digimonTCG->comprobarNombreUser('DestroyGK')
+#5 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-06 09:32:19 --> Table 'restaurante.usuarios' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\M_digimonTCG.php(15): CodeIgniter\Database\BaseConnection->query('SELECT usuario FROM usuarios WHERE usuario = DestroyGK')
+ 2 APPPATH\Controllers\C_login.php(51): App\Models\M_digimonTCG->comprobarNombreUser('DestroyGK')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-06 09:33:03 --> mysqli_sql_exception: Unknown column 'DestroyGK' in 'where clause' in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT usuario ...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT usuario ...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT usuario ...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(15): CodeIgniter\Database\BaseConnection->query('SELECT usuario ...')
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_login.php(51): App\Models\M_digimonTCG->comprobarNombreUser('DestroyGK')
+#5 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-06 09:33:03 --> Unknown column 'DestroyGK' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\M_digimonTCG.php(15): CodeIgniter\Database\BaseConnection->query('SELECT usuario FROM usuarios WHERE usuario = DestroyGK')
+ 2 APPPATH\Controllers\C_login.php(51): App\Models\M_digimonTCG->comprobarNombreUser('DestroyGK')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-06 09:34:01 --> mysqli_sql_exception: Unknown column 'DestroyGK' in 'where clause' in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT usuario ...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT usuario ...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT usuario ...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(15): CodeIgniter\Database\BaseConnection->query('SELECT usuario ...')
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_login.php(51): App\Models\M_digimonTCG->comprobarNombreUser('DestroyGK')
+#5 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-06 09:34:01 --> Unknown column 'DestroyGK' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\M_digimonTCG.php(15): CodeIgniter\Database\BaseConnection->query('SELECT usuario FROM usuarios WHERE usuario = DestroyGK')
+ 2 APPPATH\Controllers\C_login.php(51): App\Models\M_digimonTCG->comprobarNombreUser('DestroyGK')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-06 09:34:37 --> mysqli_sql_exception: Unknown column 'DestroyGK' in 'where clause' in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT usuario ...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT usuario ...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT usuario ...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(15): CodeIgniter\Database\BaseConnection->query('SELECT usuario ...')
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_login.php(51): App\Models\M_digimonTCG->comprobarNombreUser('DestroyGK')
+#5 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-06 09:34:37 --> Unknown column 'DestroyGK' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\M_digimonTCG.php(15): CodeIgniter\Database\BaseConnection->query('SELECT usuario FROM usuarios WHERE usuario = DestroyGK')
+ 2 APPPATH\Controllers\C_login.php(51): App\Models\M_digimonTCG->comprobarNombreUser('DestroyGK')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 09:37:05 --> Object of class App\Controllers\C_login could not be converted to string
+in APPPATH\Controllers\C_login.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 09:39:56 --> Object of class App\Controllers\C_login could not be converted to string
+in APPPATH\Controllers\C_login.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 09:40:44 --> Call to undefined method CodeIgniter\Encryption\Encryption::encrypt()
+in APPPATH\Controllers\C_login.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 09:42:36 --> Call to a member function initialize() on null
+in APPPATH\Controllers\C_login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\C_login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 09:42:37 --> Call to a member function initialize() on null
+in APPPATH\Controllers\C_login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\C_login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 09:47:42 --> Undefined variable $encrypter
+in APPPATH\Controllers\C_login.php on line 50.
+ 1 APPPATH\Controllers\C_login.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $encrypter', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Controllers\\C_login.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 09:53:26 --> Call to undefined method CodeIgniter\Encryption\Encryption::encrypt()
+in APPPATH\Controllers\C_login.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 09:57:24 --> Call to undefined method CodeIgniter\Encryption\Encryption::encrypt()
+in APPPATH\Controllers\C_login.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 10:38:52 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\C_login.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Controllers\\C_login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\C_login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\C_login')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\C_login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-06 10:39:43 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_login.php(54): App\Models\M_digimonTCG->insertarUsuario('defesgfsg', '\xFB9\x1E3\x07S\xFAK~Z\xDAu\x1C\x84\xBC...', 'sdfsdf')
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+#8 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 10:39:43 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`usuario`, `contrasena`, `email`, `rol`) VALUES (:usuario:, :contrasena:, :email:, :rol:)', [...], false)
+ 2 APPPATH\Models\M_digimonTCG.php(36): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\C_login.php(54): App\Models\M_digimonTCG->insertarUsuario('defesgfsg', '˚93S˙K~Z⁄uÑºz⁄Ó•ÖôQa¶-«úó)ØË÷öC:b‰¡LYC|q4ì˘-
+˚E•0ÿy˙÷âu–2áÔÃ˙(Ê8÷ ÍxeÈKÁOQÎÅ', 'sdfsdf')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-06 10:42:00 --> mysqli_sql_exception: Unknown column 'dfaf' in 'where clause' in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_login.php(52): App\Models\M_digimonTCG->comprobarNombreUser('dfaf')
+#5 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-06 10:42:00 --> Unknown column 'dfaf' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\M_digimonTCG.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE usuario = dfaf')
+ 2 APPPATH\Controllers\C_login.php(52): App\Models\M_digimonTCG->comprobarNombreUser('dfaf')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-06 10:42:41 --> mysqli_sql_exception: Unknown column 'fdfdsf' in 'where clause' in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_login.php(52): App\Models\M_digimonTCG->comprobarNombreUser('fdfdsf')
+#5 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-06 10:42:41 --> Unknown column 'fdfdsf' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\M_digimonTCG.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM usuarios WHERE usuarios.usuario = fdfdsf')
+ 2 APPPATH\Controllers\C_login.php(52): App\Models\M_digimonTCG->comprobarNombreUser('fdfdsf')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 10:44:20 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$num_rows
+in APPPATH\Models\M_digimonTCG.php on line 18.
+ 1 APPPATH\Models\M_digimonTCG.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$num_rows', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Models\\M_digimonTCG.php', 18)
+ 2 APPPATH\Controllers\C_login.php(52): App\Models\M_digimonTCG->comprobarNombreUser('efdsf')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-06 10:50:17 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_login.php(54): App\Models\M_digimonTCG->insertarUsuario('dsfdsf', 'W)\xF5\xB8^\xE3\xB1p\xE1\x8C\x18\xBA\xCB i...', 'sfdsdf')
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+#8 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-06 10:50:17 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`usuario`, `contrasena`, `email`, `rol`) VALUES (:usuario:, :contrasena:, :email:, :rol:)', [...], false)
+ 2 APPPATH\Models\M_digimonTCG.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\C_login.php(54): App\Models\M_digimonTCG->insertarUsuario('dsfdsf', 'W)ı∏^„±p·å∫À iOµ>z¨Ùø2“ã|3íRı&Ò÷' . "\0" . 'íﬁ¿‡jìZ¸‰Nk˘Õ#∞;{¬D[ë‘/=|˘˛pÉ°m·:ÎgÉ ^ΩP', 'sfdsdf')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 11:14:22 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 139.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(139): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Helpers\util_helper.php(18): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+ 3 APPPATH\Models\M_digimonTCG.php(27): desEncriptar('')
+ 4 APPPATH\Controllers\C_login.php(35): App\Models\M_digimonTCG->comprobarLogin('DestroyGK', '')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->logearse()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 11:17:52 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 139.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(139): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Helpers\util_helper.php(18): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+ 3 APPPATH\Models\M_digimonTCG.php(28): desEncriptar('')
+ 4 APPPATH\Controllers\C_login.php(35): App\Models\M_digimonTCG->comprobarLogin('DestroyGK', '')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->logearse()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 11:19:47 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 139.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(139): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Helpers\util_helper.php(18): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+ 3 APPPATH\Models\M_digimonTCG.php(28): desEncriptar('')
+ 4 APPPATH\Controllers\C_login.php(35): App\Models\M_digimonTCG->comprobarLogin('DestroyGK', '')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->logearse()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 11:22:05 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 139.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(139): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Helpers\util_helper.php(18): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('??X???}??}?xU')
+ 3 APPPATH\Controllers\C_login.php(35): desEncriptar(')6w?y??F?o?c???!l”∂???$[?G?O{›ç?÷Ö?<v?\\#??????*?ex3cK?	????X???}??}?xU')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->logearse()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 11:27:15 --> Call to a member function encrypt() on null
+in APPPATH\Helpers\util_helper.php on line 13.
+ 1 APPPATH\Controllers\C_login.php(37): encriptar('contrasena')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->logearse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 11:29:55 --> Call to a member function encrypt() on null
+in APPPATH\Helpers\util_helper.php on line 13.
+ 1 APPPATH\Controllers\C_login.php(40): encriptar('contrasena')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->logearse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 17:02:19 --> Undefined property: stdClass::$contrasena
+in APPPATH\Models\M_digimonTCG.php on line 37.
+ 1 APPPATH\Models\M_digimonTCG.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$contrasena', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Models\\M_digimonTCG.php', 37)
+ 2 APPPATH\Controllers\C_login.php(36): App\Models\M_digimonTCG->comprobarLogin('DestroyGK', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->logearse()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 17:05:35 --> Undefined property: stdClass::$contrasena
+in APPPATH\Models\M_digimonTCG.php on line 37.
+ 1 APPPATH\Models\M_digimonTCG.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$contrasena', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Models\\M_digimonTCG.php', 37)
+ 2 APPPATH\Controllers\C_login.php(36): App\Models\M_digimonTCG->comprobarLogin('DestroyGK', '')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->logearse()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 17:34:54 --> Undefined variable $erroresText
+in APPPATH\Views\registro.php on line 12.
+ 1 APPPATH\Views\registro.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $erroresText', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\registro.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\registro.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('registro', [], true)
+ 5 APPPATH\Controllers\C_login.php(56): view('registro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registro()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 17:41:26 --> Undefined variable $erroresText
+in APPPATH\Views\registro.php on line 12.
+ 1 APPPATH\Views\registro.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $erroresText', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\registro.php', 12)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\registro.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('registro', [], true)
+ 5 APPPATH\Controllers\C_login.php(102): view('registro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 18:02:57 --> Attempt to read property "usuario" on null
+in APPPATH\Controllers\C_login.php on line 47.
+ 1 APPPATH\Controllers\C_login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "usuario" on null', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Controllers\\C_login.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->logearse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 18:03:25 --> Attempt to read property "usuario" on null
+in APPPATH\Controllers\C_login.php on line 47.
+ 1 APPPATH\Controllers\C_login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "usuario" on null', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Controllers\\C_login.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->logearse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 18:05:44 --> Attempt to read property "id" on string
+in APPPATH\Controllers\C_login.php on line 40.
+ 1 APPPATH\Controllers\C_login.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on string', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Controllers\\C_login.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->logearse()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 18:10:36 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\C_login.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->logearse()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-06 18:11:35 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\C_login.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->logearse()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

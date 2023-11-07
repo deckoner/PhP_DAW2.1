@@ -9,18 +9,22 @@
 <body>
     <main>
         <?php 
-            echo form_open(site_url().'/login/logearse');
+            if (isset($erroresTexto)) {
+                echo '<p style="color: red;">'.$erroresTexto.'</p>';
+            }
+
+            echo form_open(site_url().'login/logearse');
 
             echo form_label("Usuario");
             echo form_input("usuario", "", ['min' => '10', 'max' => '500']);
             
             echo form_label("contraseña");
-            echo form_password('password', '', 'class="form-control"');
+            echo form_password('contra', '', 'class="form-control"');
 
             echo form_submit("logearse", "Login");
             echo form_close();
-
-            echo "<p>Si no te has registrado lo puedes hacer ".anchor(site_url()."/registro","aqui")."</p>";
+            
+            echo "<p>Si no te has registrado lo puedes hacer ".anchor(site_url()."registro","aqui")."</p>";
         ?>
         
     </main>

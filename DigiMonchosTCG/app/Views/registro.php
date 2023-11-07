@@ -8,7 +8,11 @@
 </head>
 <body>
     <?php 
-        echo form_open(site_url().'/registro/registrarse');
+        if (isset($erroresTexto)) {
+            echo '<p style="color: red;">'.$erroresTexto.'</p>';
+        }
+
+        echo form_open(site_url().'registro/registrarse');
 
         echo form_label("Usuario");
         echo form_input("usuario", $user, ['min' => '2', 'max' => '50']);
@@ -17,7 +21,7 @@
         echo form_password('contra', "", 'class="form-control"');
 
         echo form_label("Email");
-        echo form_input("email", $email, ['min' => '10', 'max' => '120']);
+        echo form_input("email", $email, ['max' => '120']);
 
         echo form_submit("registrarse", "Registrarse");
         echo form_close();
