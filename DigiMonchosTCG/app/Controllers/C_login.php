@@ -16,16 +16,16 @@ class C_login extends BaseController {
         if (!empty($this->session->get('usuario'))) {
             $datos['tituloPagina'] = "Inicio";
 
-            echo view('elementos/cabecera', $datos);
-            echo view('inicio');
-            echo view('elementos/pie');
+            echo view('elementos/Vcabecera', $datos);
+            echo view('Vinicio');
+            echo view('elementos/Vpie');
         } else {
             $this->login();
         }
     }
 
     public function login() {
-        echo view('login');
+        echo view('Vlogin');
     }
 
     public function logearse() {
@@ -44,7 +44,7 @@ class C_login extends BaseController {
             $this->index();
         } else {
             $datos['erroresTexto'] = "Usuario o contraseña incorrecta, intentelo de nuevo";
-            echo view('login', $datos);
+            echo view('Vlogin', $datos);
         }
     }
 
@@ -54,7 +54,7 @@ class C_login extends BaseController {
 
         $datos['erroresTexto'] = "";
 
-        echo view('registro', $datos);
+        echo view('Vregistro', $datos);
     }
 
     public function registrarse() {
@@ -95,14 +95,19 @@ class C_login extends BaseController {
             $contraCifrada = encriptarContra($contra);
             $this->modelo->insertarUsuario($user, $contraCifrada, $email);
 
-            echo view('login');
+            echo view('Vlogin');
         } else {
             // Volvemos a la pagina registro con los errores del registro
             $datos['user'] = $user;
             $datos['email'] = $email;
             $datos['erroresTexto'] = $erroresTexto;
     
-            echo view('registro', $datos);
+            echo view('Vregistro', $datos);
         }
+    }
+
+    public function logout() {
+        $this->session->destroy();
+        return redirect('/');
     }
 }

@@ -56,104 +56,55 @@ class M_digimonTCG extends Model {
         return $this->db->insertID();
     }
 
+    // !Pedir datos
+    public function obtenerCarta($btNumber) {
+        $query = $this->db->query("SELECT c.numero_carta, c.url_imagen, c.coste, c.efecto, c.digievolucion_efecto, c.efecto_seguridad, 
+                c.coste_digievolucion_uno AS digiEvoUno, c.coste_digievolucion_dos AS digiEvoDos, 
+                c.nombre AS nombre_carta, 
+                    (SELECT nombre FROM atributos WHERE id = c.atributo_id) AS atributo,
+                    (SELECT nombre FROM colores WHERE id = c.color_uno_id) AS color_uno,
+                    (SELECT nombre FROM colores WHERE id = c.color_dos_id) AS color_dos,
+                    (SELECT nombre FROM etapas WHERE id = c.etapa_id) AS etapa,
+                    (SELECT nombre FROM rarezas WHERE id = c.rareza_id) AS rareza,
+                    (SELECT nombre FROM tipos WHERE id = c.tipo_uno_id) AS tipo,
+                    (SELECT nombre FROM tiposcarta WHERE id = c.tipo_carta_id) AS tipo_carta,
+                    (SELECT nombre FROM bts WHERE id = c.bt_id) AS bt_nombre,
+                    (SELECT abreviatura FROM bts WHERE id = c.bt_id) AS bt_abreviatura
+            FROM cartas c
+            WHERE c.numero_carta = '$btNumber';");
 
+        return $query->getRowObject();
+    }
 
+    public function obtenerTodasLasCartas() {
+        $query = $this->db->query('SELECT c.numero_carta, c.nombre, c.url_imagen,
+            (SELECT nombre FROM colores WHERE id = c.color_uno_id) AS color_uno,
+            (SELECT nombre FROM colores WHERE id = c.color_dos_id) AS color_dos
+            FROM cartas c');
 
+        return $query->getResultObject();
+    }
 
-
+    public function optenerNombres($tablaNombre) {
+        $query = $this->db->table($tablaNombre)
+                        ->select('id, nombre')
+                        ->get();
     
-
-    public function platosCaros() {
-
-        $consulta = "SELECT * FROM platos WHERE (SELECT avg(precio) from platos)";
-        $resultados = $this->db->query($consulta);
-
-        return $resultados->getResultObject();
+        return $query->getResultArray();
     }
 
-    public function platosSinPedir() {
-
-        $consulta = "SELECT count(*) as numero FROM platos 
-            WHERE idplato not in (SELECT DISTINCT idplato from pedidos)";
-        $resultados = $this->db->query($consulta);
-
-        return $resultados->getRowArray()['numero'];
-    }
-
-    public function platosPedidos() {
-
-        $consulta = "SELECT count(*) as numero FROM platos 
-            WHERE idplato in (SELECT DISTINCT idplato from pedidos)";
-        $resultados = $this->db->query($consulta);
-
-        return $resultados->getRowArray()['numero'];
-    }
-
-    public function listaPlatos() {
-
-        $consulta = "SELECT idplato, nombre, precio, count(*) FROM platos, pedidos WHERE platos.idplato = pedidos.idplato";
-        $resultados = $this->db->query($consulta);
-
-        return $resultados->getResultObject();
-    }
-
-    public function platosConNumeroPedidos() {
-        $consulta = "select idPlato, nombre, precio, (select count(*) from pedidos where pedidos.idPlato = platos.idPlato) as repetidos 
-            from platos";
-
-        $resultados = $this->db->query($consulta);
-        return $resultados->getResultObject();
-    }
-
-    public function insertarPlato($nombre, $precio, $fecha) {
-        $consulta = "INSERT INTO `platos` (`nombre`, `precio`, `fecha`) 
-                    VALUES ('$nombre', '$precio', '$fecha') ";
-
-        $this->db->query($consulta);
-
-        return $this->db->insertID();
-    }
-
-    public function plato($idPlato) {
-        $consulta = "SELECT idPlato, nombre, precio, fecha FROM platos WHERE idPlato = $idPlato";
-        $resultados = $this->db->query($consulta);
-
-        return $resultados->getRowObject();
-    }
-
-    public function platoConImagen($idPlato) {
-        $consulta = "SELECT * FROM platos WHERE idPlato = $idPlato";
-        $resultados = $this->db->query($consulta);
-
-        return $resultados->getRowObject();
-    }
-
-    public function ingredientesPlato($idPlato) {
-        $consulta = "SELECT c.idPlato, i.nombre as nombre, c.cantidad as cantidad
-            FROM composicion as c, ingredientes as i 
-            WHERE c.idPlato = $idPlato AND c.idIngrediente = i.idIngrediente";
-        $resultados = $this->db->query($consulta);
-
-        return $resultados->getResultObject();
-    }
-
-    public function ingredientesNoPlato($idPlato) {
-        $consulta = "SELECT i.nombre as nombre, i.idIngrediente as idIngrediente
-            FROM ingredientes as i 
-            WHERE i.idIngrediente NOT IN (
-                SELECT c.idIngrediente 
-                FROM composicion as c
-                WHERE c.idPlato = $idPlato
-            )";
-        $resultados = $this->db->query($consulta);
+    public function optenerBTsAbrev() {
+        $query = $this->db->table("bts")
+                        ->select('id, abreviatura')
+                        ->get();
     
-        return $resultados->getResultObject();
+        return $query->getResultArray();
     }
 
-    public function insertarIngredientePlato($idPlato, $idIngrediente) {
-        $consulta = "INSERT INTO composicion(idPlato, idIngrediente) VALUE ($idPlato, $idIngrediente)";
-        $resultados = $this->db->query($consulta);
+    public function obtenerValorMaximo($tablaNombre, $campo) {
+        $this->db->table($tablaNombre);
+        $query = $this->db->query("SELECT MAX($campo) AS maxCoste FROM $tablaNombre ;");
     
-        return $resultados->getResultObject();
+        return $query->getRowObject();
     }
 }

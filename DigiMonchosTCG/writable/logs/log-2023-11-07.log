@@ -1,0 +1,94 @@
+CRITICAL - 2023-11-07 11:09:08 --> Too few arguments to function App\Controllers\C_login::logout(), 0 passed in C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\C_login.php on line 109.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->logout()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 12:11:26 --> Attempt to read property "numero_carta" on array
+in APPPATH\Views\coleccion.php on line 9.
+ 1 APPPATH\Views\coleccion.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "numero_carta" on array', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\coleccion.php', 9)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\coleccion.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('coleccion', [], true)
+ 5 APPPATH\Controllers\C_cartas.php(20): view('coleccion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_cartas->coleccion()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cartas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 12:12:10 --> Undefined property: stdClass::$color_dos
+in APPPATH\Views\coleccion.php on line 11.
+ 1 APPPATH\Views\coleccion.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$color_dos', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\coleccion.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\coleccion.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('coleccion', [], true)
+ 5 APPPATH\Controllers\C_cartas.php(20): view('coleccion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_cartas->coleccion()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cartas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 12:34:49 --> Undefined property: stdClass::$color_dos
+in APPPATH\Views\coleccion.php on line 18.
+ 1 APPPATH\Views\coleccion.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$color_dos', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\coleccion.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\coleccion.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('coleccion', [], true)
+ 5 APPPATH\Controllers\C_cartas.php(20): view('coleccion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_cartas->coleccion()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cartas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 12:37:04 --> Undefined property: stdClass::$color_dos
+in APPPATH\Views\coleccion.php on line 11.
+ 1 APPPATH\Views\coleccion.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$color_dos', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\coleccion.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\coleccion.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('coleccion', [], true)
+ 5 APPPATH\Controllers\C_cartas.php(20): view('coleccion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_cartas->coleccion()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cartas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 12:37:05 --> Undefined property: stdClass::$color_dos
+in APPPATH\Views\coleccion.php on line 11.
+ 1 APPPATH\Views\coleccion.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$color_dos', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\coleccion.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\coleccion.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('coleccion', [], true)
+ 5 APPPATH\Controllers\C_cartas.php(20): view('coleccion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_cartas->coleccion()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cartas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 12:38:04 --> Undefined property: stdClass::$color_dos
+in APPPATH\Views\coleccion.php on line 11.
+ 1 APPPATH\Views\coleccion.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$color_dos', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\coleccion.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\coleccion.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('coleccion', [], true)
+ 5 APPPATH\Controllers\C_cartas.php(20): view('coleccion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_cartas->coleccion()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cartas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 12:42:44 --> Undefined property: stdClass::$color_dos
+in APPPATH\Views\coleccion.php on line 11.
+ 1 APPPATH\Views\coleccion.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$color_dos', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\coleccion.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\coleccion.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('coleccion', [], true)
+ 5 APPPATH\Controllers\C_cartas.php(20): view('coleccion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_cartas->coleccion()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cartas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-07 13:17:56 --> Undefined property: stdClass::$dos
+in APPPATH\Views\coleccion.php on line 21.
+ 1 APPPATH\Views\coleccion.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$dos', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\coleccion.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\coleccion.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('coleccion', [], true)
+ 5 APPPATH\Controllers\C_cartas.php(20): view('coleccion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_cartas->coleccion()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cartas))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
