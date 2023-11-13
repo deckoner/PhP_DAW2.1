@@ -52,6 +52,7 @@ header {
     background-color: var(--oscuro-dos);
 
     width: 100%;
+    height: fit-content;
 }
 
 main {
@@ -59,11 +60,38 @@ main {
     width: 90%;
 }
 
+section {
+    margin-top: 1em;
+    padding: 1em;
+
+    background-color: var(--oscuro-dos);
+    border-radius: 1em;  
+}
+
+label {
+    display: block;
+}
+
+select {
+    background-color: var(--oscuro);
+    color: var(--complementario1);
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    background-color: var(--oscuro);
+    color: var(--complementario1);
+
+    font-size: 1.3em;
+
+    border-radius: 2em;
+}
+
 /* *Clases */
 .titulo {
     margin-top: 0.5em;
     margin-left: 3em;
-    color: blue;
 }
 
 .titulo>a {
@@ -72,6 +100,21 @@ main {
 
     font-size: 1em;
 }
+
+.loginSection {
+    width: fit-content;
+
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+.loginSection .titulo {
+    text-align: center;
+    
+    margin: 0;
+
+    font-size: 4em;
+} 
 
 .coleccion {
     height: 62vh;
@@ -161,7 +204,6 @@ main {
 .PFiltros {
     background-color: #303030bd;
 
-    padding-bottom: 1em;
     padding-top: 1em;
 
     border-radius: 1em;
@@ -195,7 +237,7 @@ main {
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr 1fr;
    
-    gap: 0.5em;
+    gap: 0.6em;
     height: 10%;
 
     margin-top: 1em;
@@ -233,10 +275,10 @@ main {
     grid-column-end: 2;
 
     margin-left: 1em;
-    margin-right: 1em;
     margin-bottom: 1em;
+    margin-top: 1em;
 
-    width: 24em;
+    width: 23em;
 
     text-align: center;
  }
@@ -253,8 +295,9 @@ main {
     flex-wrap: wrap;
     gap: 0.3em;
 
+    margin-bottom: 1em;
+
     height: fit-content;
-    width: 100%;
  }
 
  .seccionAtri > article {
@@ -287,6 +330,11 @@ main {
  
     grid-row-end: 3;
     grid-column-end: 4;
+
+    margin-right: 1em;
+    margin-bottom: 1em;
+
+    height: fit-content;
  }
 
  .seccionEfect > article {

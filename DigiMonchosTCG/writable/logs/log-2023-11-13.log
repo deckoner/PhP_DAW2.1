@@ -1,0 +1,22 @@
+ERROR - 2023-11-13 10:56:17 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(54): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_login.php(97): App\Models\M_digimonTCG->insertarUsuario('Prueba', '$2y$10$l6SUxzsk...', 'fsdfsf@sdfsdf.c...')
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+#8 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-13 10:56:17 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`usuario`, `contrasena`, `email`, `rol`) VALUES (:usuario:, :contrasena:, :email:, :rol:)', [...], false)
+ 2 APPPATH\Models\M_digimonTCG.php(54): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\C_login.php(97): App\Models\M_digimonTCG->insertarUsuario('Prueba', '$2y$10$l6SUxzsk4qMj8gbGS.AHO.mNnFqZjYKvBBGZYrzivIB6yw.tGpFDO', 'fsdfsf@sdfsdf.com')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_login->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

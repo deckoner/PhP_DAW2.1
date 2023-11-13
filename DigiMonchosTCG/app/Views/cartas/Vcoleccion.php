@@ -35,7 +35,7 @@
 <main>
     <section class="PFiltros">
             <?php 
-                echo form_open(site_url().'coleccion/logecoleccionarse');
+                echo form_open(site_url().'coleccion');
                 echo "<table>";
 
                     echo '<tr>
@@ -50,6 +50,9 @@
                         <td>'.form_label("Atributo").form_dropdown("Atributo", $atributosNombres, null).'</td>
                         <td>'.form_label("bt").form_dropdown("bt", $btNombres, null).'</td>
                         <td>'.form_label("coste").form_dropdown("coste", $costesLista, null).'</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">'.form_submit("filtrarCartas", "Filtrar Cartas").'</td>
                     </tr>';
                 echo "</table>";
                 echo form_close();
@@ -73,7 +76,7 @@
                         echo '<article class="carta" style="border: solid 0.3em var(--'.$c->color_uno.'); 
                                                     background-color: var(--'.$c->color_uno.'-fondo)">
                             <h1>'.$titulo.'</h1>
-                            <a href="'.site_url()."coleccion/carta/".$c->numero_carta.'"><img src="'.$c->url_imagen.'" alt="carta: '.$c->numero_carta.'" loading="lazy"></a>
+                            <a href="'.site_url()."coleccion/carta/".$c->numero_carta.'" target="_blank" rel="noopener noreferrer"><img src="'.$c->url_imagen.'" alt="carta: '.$c->numero_carta.'" loading="lazy"></a>
                         </article>';
                     } else {
                         echo '<article class="carta" style="
@@ -83,7 +86,7 @@
                                 background-origin: border-box;
                                 background-clip: content-box, border-box;">
                             <h1>'.$titulo.'</h1>
-                            <a href="'.site_url()."coleccion/carta/".$c->numero_carta.'"><img src="'.$c->url_imagen.'" alt="carta: '.$c->numero_carta.'" loading="lazy"></a>
+                            <a href="'.site_url()."coleccion/carta/".$c->numero_carta.'" target="_blank" rel="noopener noreferrer"><img src="'.$c->url_imagen.'" alt="carta: '.$c->numero_carta.'" loading="lazy"></a>
                         </article>';
                     }
                 }

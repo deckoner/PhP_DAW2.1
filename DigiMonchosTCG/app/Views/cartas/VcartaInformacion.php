@@ -14,12 +14,12 @@
                     if (!is_null($carta->color_uno)) {
                         if (!is_null($carta->color_dos)) {
                             echo "<article>
-                                <h3>Coste Digievolución</h3>
+                                <h3>Colores</h3>
                                 <p>$carta->color_uno / $carta->color_dos</p>
                             </article>";
                         } else {
                             echo "<article>
-                                <h3>Coste de Digievolución</h3>
+                                <h3>Color</h3>
                                 <p>$carta->color_uno</p>
                             </article>";
                         }
@@ -54,19 +54,26 @@
                             </article>";
                         } else {
                             echo "<article>
-                                <h3>Coste de Digievolución 1</h3>
+                                <h3>Coste de Digievolución</h3>
                                 <p>$carta->digiEvoUno</p>
                             </article>";
                         }
                     }
 
-                    if (!is_null($carta->tipo)) {
+                    if (!is_null($carta->tipo) and !is_null($carta->atributo)) {
                         echo "<article>
                             <h3>Tipo/Atributo</h3>
                             <p>$carta->tipo / $carta->atributo</p>
                         </article>";
+                    } else {
+                        echo "<article>
+                            <h3>Tipo</h3>
+                            <p>$carta->tipo</p>
+                        </article>";
                     }
 
+                    // !NOTA IMPORTANTE: Toda carta tiene una etapa pero algunas pueden ser de etapa null
+                    // !No confundir con un null de verdad por algun problema de programacion.
                     if (!is_null($carta->etapa)) {
                         echo "<article>
                             <h3>Etapa</h3>

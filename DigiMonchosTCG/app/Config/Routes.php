@@ -18,3 +18,4 @@ $routes->get('/coleccion', 'C_cartas::coleccion');
 $routes->post('/coleccion', 'C_cartas::coleccionBusqueda');
 $routes->get('/coleccion/carta/(:any)', 'C_cartas::cartaInformacion/$1');
 
+$routes->get('/decks', 'C_decks::decks');

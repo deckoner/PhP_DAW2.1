@@ -85,6 +85,52 @@ class M_digimonTCG extends Model {
         return $query->getResultObject();
     }
 
+    public function buscarCarta($idColor, $idColorDos, $idTipoCarta, $idAtributo, $idBT, $coste, $nombre) {
+        $builder = $this->db->table('cartas c')
+                            ->select('c.numero_carta, c.nombre, c.url_imagen,
+                                (SELECT nombre FROM colores WHERE id = c.color_uno_id) AS color_uno,
+                                (SELECT nombre FROM colores WHERE id = c.color_dos_id) AS color_dos');
+    
+        // Condiciones de búsqueda para color_uno_id
+        if (!is_null($idColor) && $idColor !== '') {
+            $builder->where('c.color_uno_id', $idColor);
+        }
+    
+        // Condiciones de búsqueda para color_dos_id
+        if (!is_null($idColorDos) && $idColorDos !== '') {
+            $builder->where('c.color_dos_id', $idColorDos);
+        }
+    
+        // Condiciones de búsqueda para tipo_carta_id
+        if (!is_null($idTipoCarta) && $idTipoCarta !== '') {
+            $builder->where('c.tipo_carta_id', $idTipoCarta);
+        }
+    
+        // Condiciones de búsqueda para atributo_id
+        if (!is_null($idAtributo) && $idAtributo !== '') {
+            $builder->where('c.atributo_id', $idAtributo);
+        }
+    
+        // Condiciones de búsqueda para bt_id
+        if (!is_null($idBT) && $idBT !== '') {
+            $builder->where('c.bt_id', $idBT);
+        }
+    
+        // Condiciones de búsqueda para coste
+        if (!is_null($coste) && $coste !== '') {
+            $builder->where('c.coste', $coste);
+        }
+    
+        // Condiciones de búsqueda para nombre
+        if (!is_null($nombre) && $nombre !== '') {
+            $builder->like('c.nombre', $nombre);
+        }
+    
+        $query = $builder->get();
+    
+        return $query->getResultObject();
+    }
+
     public function optenerNombres($tablaNombre) {
         $query = $this->db->table($tablaNombre)
                         ->select('id, nombre')

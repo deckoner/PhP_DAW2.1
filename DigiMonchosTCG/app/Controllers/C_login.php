@@ -15,9 +15,10 @@ class C_login extends BaseController {
     public function index() {
         if (!empty($this->session->get('usuario'))) {
             $datos['tituloPagina'] = "Inicio";
+            $datosInicio['user'] = $this->session->get('usuario');
 
             echo view('elementos/Vcabecera', $datos);
-            echo view('Vinicio');
+            echo view('Vinicio', $datosInicio);
             echo view('elementos/Vpie');
         } else {
             $this->login();

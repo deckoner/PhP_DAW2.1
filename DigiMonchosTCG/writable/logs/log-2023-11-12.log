@@ -1,0 +1,37 @@
+ERROR - 2023-11-12 17:54:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND c.color_uno_id = '1'
+            AND c.color_dos_id = ''
+            AN...' at line 6 in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('\r\n            S...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(89): CodeIgniter\Database\BaseConnection->query('\r\n            S...')
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_cartas.php(58): App\Models\M_digimonTCG->buscarCarta('1', '', '', '', '', '', NULL)
+#5 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_cartas->coleccionBusqueda()
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cartas))
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-12 17:54:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND c.color_uno_id = '1'
+            AND c.color_dos_id = ''
+            AN...' at line 6
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\M_digimonTCG.php(89): CodeIgniter\Database\BaseConnection->query('
+            SELECT c.numero_carta, c.nombre, c.url_imagen,
+            (SELECT nombre FROM colores WHERE id = c.color_uno_id) AS color_uno,
+            (SELECT nombre FROM colores WHERE id = c.color_dos_id) AS color_dos
+            FROM cartas c
+            WHERE
+            AND c.color_uno_id = \'1\'
+            AND c.color_dos_id = \'\'
+            AND c.tipo_carta_id = \'\'
+            AND c.atributo_id = \'\'
+            AND c.bt_id = \'\'
+            AND c.coste = \'\'
+            
+        ')
+ 2 APPPATH\Controllers\C_cartas.php(58): App\Models\M_digimonTCG->buscarCarta('1', '', '', '', '', '', null)
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_cartas->coleccionBusqueda()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cartas))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
