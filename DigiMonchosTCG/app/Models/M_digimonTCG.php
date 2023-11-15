@@ -76,6 +76,15 @@ class M_digimonTCG extends Model {
         return $query->getRowObject();
     }
 
+    public function obtenerCartaDeckBuild($btNumber) {
+        $query = $this->db->query("SELECT c.numero_carta, c.url_imagen,
+                    (SELECT nombre FROM tiposcarta WHERE id = c.tipo_carta_id) AS tipo_carta
+            FROM cartas c
+            WHERE c.numero_carta = '$btNumber';");
+
+        return $query->getRowObject();
+    }
+
     public function obtenerTodasLasCartas() {
         $query = $this->db->query('SELECT c.numero_carta, c.nombre, c.url_imagen,
             (SELECT nombre FROM colores WHERE id = c.color_uno_id) AS color_uno,
@@ -137,6 +146,15 @@ class M_digimonTCG extends Model {
                         ->get();
     
         return $query->getResultArray();
+    }
+
+    public function optenerDecks($userID) {
+        $query = $this->db->table("decks")
+                        ->select('nombre, fechaCreacion')
+                        ->where('idUser', $userID)
+                        ->get();
+    
+        return $query->getResultObject();
     }
 
     public function optenerBTsAbrev() {

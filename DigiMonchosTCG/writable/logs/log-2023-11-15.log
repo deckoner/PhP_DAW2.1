@@ -1,0 +1,39 @@
+CRITICAL - 2023-11-15 08:00:54 --> Too few arguments to function App\Controllers\C_decks::crearDeck(), 0 passed in C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\C_decks.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->crearDeck()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:46:54 --> Attempt to read property "nombre" on array
+in APPPATH\Views\decks\VinicioDecks.php on line 7.
+ 1 APPPATH\Views\decks\VinicioDecks.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VinicioDecks.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VinicioDecks.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('decks/VinicioDecks', [], true)
+ 5 APPPATH\Controllers\C_decks.php(84): view('decks/VinicioDecks', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->inicioDecks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:47:16 --> Attempt to read property "nombre" on array
+in APPPATH\Views\decks\VinicioDecks.php on line 7.
+ 1 APPPATH\Views\decks\VinicioDecks.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VinicioDecks.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VinicioDecks.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('decks/VinicioDecks', [], true)
+ 5 APPPATH\Controllers\C_decks.php(84): view('decks/VinicioDecks', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->inicioDecks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:47:26 --> Attempt to read property "nombre" on array
+in APPPATH\Views\decks\VinicioDecks.php on line 7.
+ 1 APPPATH\Views\decks\VinicioDecks.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VinicioDecks.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VinicioDecks.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('decks/VinicioDecks', [], true)
+ 5 APPPATH\Controllers\C_decks.php(84): view('decks/VinicioDecks', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->inicioDecks()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

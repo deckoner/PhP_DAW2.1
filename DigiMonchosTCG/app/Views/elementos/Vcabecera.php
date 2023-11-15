@@ -13,7 +13,7 @@
         <nav>
             <a href="<?php echo base_url();?>">Inicio</a>
             <a href="<?php echo base_url();?>coleccion">Coleccion</a>
-            <a href="<?php echo base_url();?>">Decks</a>
+            <a href="<?php echo base_url();?>decks">Decks</a>
             <a href="<?php echo base_url();?>">Decks de la comunidad</a>
             <a href="<?php echo base_url()?>logout">logout</a>
         </nav>
