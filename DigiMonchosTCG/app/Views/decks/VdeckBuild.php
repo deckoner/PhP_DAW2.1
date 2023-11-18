@@ -36,8 +36,16 @@
 ?>
 
 <main>
-    <section class="DeckEditor">
-        <article></article>
+    <section class="deckEditor">
+        <?php 
+            if (isset($listaCartasDeck)) {
+                foreach ($listaCartasDeck as $c) {
+                    echo '<a href="'.base_url()."decks/crearDeck/".$c->numero_carta.'/true">
+                        <img src="'.$c->url_imagen.'" class="cardIMG">
+                    </a>';
+                }
+            }
+        ?>
     </section>
 
     <section>
@@ -84,7 +92,7 @@
                             echo '<article class="carta" style="border: solid 0.3em var(--'.$c->color_uno.'); 
                                                         background-color: var(--'.$c->color_uno.'-fondo)">
                                 <h1>'.$titulo.'</h1>
-                                <a href="'.current_url()."/".$c->numero_carta.'" target="_blank" rel="noopener noreferrer"><img src="'.$c->url_imagen.'" alt="carta: '.$c->numero_carta.'" loading="lazy"></a>
+                                <a href="'.base_url()."decks/crearDeck/".$c->numero_carta.'/false"><img src="'.$c->url_imagen.'" alt="carta: '.$c->numero_carta.'" loading="lazy"></a>
                             </article>';
                         } else {
                             echo '<article class="carta" style="
@@ -94,7 +102,7 @@
                                     background-origin: border-box;
                                     background-clip: content-box, border-box;">
                                 <h1>'.$titulo.'</h1>
-                                <a href="'.current_url()."/".$c->numero_carta.'" target="_blank" rel="noopener noreferrer"><img src="'.$c->url_imagen.'" alt="carta: '.$c->numero_carta.'" loading="lazy"></a>
+                                <a href="'.base_url()."decks/crearDeck/".$c->numero_carta.'/false"><img src="'.$c->url_imagen.'" alt="carta: '.$c->numero_carta.'" loading="lazy"></a>
                             </article>';
                         }
                     }

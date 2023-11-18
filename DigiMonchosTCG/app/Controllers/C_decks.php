@@ -12,7 +12,7 @@ class C_decks extends BaseController {
         helper('util');
     }
 
-    public function crearDeck($numero_carta = null) {
+    public function crearDeck($numero_carta = null, $eliminar = null) {
         // Si existe un numero de carta lo intentaremos meter a la listaDeck
         if (!is_null($numero_carta)) {
             // Si no existe la variable de listaCartasDeck la creamos
@@ -23,9 +23,16 @@ class C_decks extends BaseController {
                 $listaCartasDeck = $this->session->get("listaCartasDeck");
             }
 
-            if (count($listaCartasDeck)+1 <= 55) {
-                //Añadimos la carta y actualizamos la sesion
-                $listaCartasDeck[] = $numero_carta;
+            // Comprobamos si ahi que eliminar o añadir la carta
+            if ($eliminar) {
+                
+                $carta = array_search($numero_carta, array_column($listaCartasDeck, 'numero_carta'));
+
+                if ($carta !== false) {
+                    unset($listaCartasDeck[$carta]);
+                }
+
+                // Actualizamos la lista sin la carta
                 $this->session->set("listaCartasDeck", $listaCartasDeck);
 
                 // Creamos la lista de cartas que se van a pasar a la vista
@@ -36,9 +43,27 @@ class C_decks extends BaseController {
                     $listaCartasDeckView[] = $this->modelo->obtenerCartaDeckBuild($c);
                 }
 
+                // Guardamos la lista de cartas a mostrar en la view
                 $datos["listaCartasDeck"] = $listaCartasDeckView;
             } else {
-                $datos["errorDeck"] = "El numero de cartas no puede ser mayor a 55 cartas";
+                // Si el numero supera a 55 avisaremos al usuario con un error
+                if (count($listaCartasDeck)+1 <= 55) {
+                    //Añadimos la carta y actualizamos la sesion
+                    $listaCartasDeck[] = $numero_carta;
+                    $this->session->set("listaCartasDeck", $listaCartasDeck);
+
+                    // Creamos la lista de cartas que se van a pasar a la vista
+                    $listaCartasDeckView = array();
+
+                    // Recuperaremos la informacion de las cartas en la base de datos
+                    foreach ($listaCartasDeck as $c) {
+                        $listaCartasDeckView[] = $this->modelo->obtenerCartaDeckBuild($c);
+                    }
+
+                    $datos["listaCartasDeck"] = $listaCartasDeckView;
+                } else {
+                    $datos["errorDeck"] = "El numero de cartas no puede ser mayor a 55 cartas";
+                }
             }
         }
 

@@ -40,7 +40,7 @@ nav {
     margin-left: 1.5em;
 }
 
-nav>a {
+a {
     text-decoration: none;
     color: var(--complementario1);
 }
@@ -65,7 +65,7 @@ section {
     padding: 1em;
 
     background-color: var(--oscuro-dos);
-    border-radius: 1em;  
+    border-radius: 1em;
 }
 
 label {
@@ -110,11 +110,11 @@ input {
 
 .loginSection .titulo {
     text-align: center;
-    
+
     margin: 0;
 
     font-size: 4em;
-} 
+}
 
 .coleccion {
     height: 62vh;
@@ -232,11 +232,11 @@ input {
 }
 
 .articuloCartaInfo {
-    display: grid; 
+    display: grid;
 
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr 1fr;
-   
+
     gap: 0.6em;
     height: 10%;
 
@@ -247,10 +247,10 @@ input {
     border-radius: 1em;
 }
 
-.articuloCartaInfo > h1 {
+.articuloCartaInfo>h1 {
     grid-row-start: 1;
     grid-column-start: 1;
- 
+
     grid-row-end: 2;
     grid-column-end: 4;
 
@@ -265,12 +265,12 @@ input {
 
     background-color: var(--oscuro-dos);
     border-radius: 2em;
- }
+}
 
- .articuloCartaInfo > img {
+.articuloCartaInfo>img {
     grid-row-start: 2;
     grid-column-start: 1;
- 
+
     grid-row-end: 3;
     grid-column-end: 2;
 
@@ -281,12 +281,12 @@ input {
     width: 23em;
 
     text-align: center;
- }
+}
 
- .seccionAtri {
+.seccionAtri {
     grid-row-start: 2;
     grid-column-start: 2;
- 
+
     grid-row-end: 3;
     grid-column-end: 3;
 
@@ -298,9 +298,9 @@ input {
     margin-bottom: 1em;
 
     height: fit-content;
- }
+}
 
- .seccionAtri > article {
+.seccionAtri>article {
     display: flex;
     flex-direction: column;
 
@@ -314,20 +314,20 @@ input {
 
     margin: 0;
     height: fit-content;
- }
+}
 
- .seccionAtri > article > h3 {
+.seccionAtri>article>h3 {
     margin: 0;
- }
+}
 
- .seccionAtri > article > p {
+.seccionAtri>article>p {
     margin: 0;
- }
+}
 
- .seccionEfect {
+.seccionEfect {
     grid-row-start: 2;
     grid-column-start: 3;
- 
+
     grid-row-end: 3;
     grid-column-end: 4;
 
@@ -335,9 +335,9 @@ input {
     margin-bottom: 1em;
 
     height: fit-content;
- }
+}
 
- .seccionEfect > article {
+.seccionEfect>article {
     background-color: var(--oscuro-dos);
     border-radius: 1em;
 
@@ -347,14 +347,52 @@ input {
     padding: 1em;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
- }
- .seccionEfect > article > h2 {
+}
+
+.seccionEfect>article>h2 {
     margin: 0;
     margin-top: 0.3em;
- }
+}
 
- .listaDecks article {
-    width: 30em;
+.listaDecks {
+    width: 15em;
+
+    background-color: var(--oscuro-tres);
+
+    border: 0.3em solid var(--complementario1);
+    border-radius: 1em;
+
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+.deckEditor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    justify-content: center;
+
+    height: 20em;
+
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.deckEditor::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.deckEditor::-webkit-scrollbar-track {
+    background-color: var(--oscuro-dos);
+}
+
+.deckEditor::-webkit-scrollbar-thumb {
     background-color: var(--complementario1);
-    color: red;
- }
+    border-radius: 0.2em;
+}
+
+.cardIMG {
+    width: 10em;
+}

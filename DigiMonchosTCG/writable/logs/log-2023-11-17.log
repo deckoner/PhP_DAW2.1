@@ -1,0 +1,55 @@
+CRITICAL - 2023-11-17 09:18:07 --> Attempt to read property "nombre" on null
+in APPPATH\Views\decks\VdeckBuild.php on line 43.
+ 1 APPPATH\Views\decks\VdeckBuild.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on null', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VdeckBuild.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VdeckBuild.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('decks/VdeckBuild', [], true)
+ 5 APPPATH\Controllers\C_decks.php(73): view('decks/VdeckBuild', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->crearDeck('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 09:19:10 --> Attempt to read property "numero_carta" on null
+in APPPATH\Views\decks\VdeckBuild.php on line 43.
+ 1 APPPATH\Views\decks\VdeckBuild.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "numero_carta" on null', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VdeckBuild.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VdeckBuild.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('decks/VdeckBuild', [], true)
+ 5 APPPATH\Controllers\C_decks.php(73): view('decks/VdeckBuild', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->crearDeck('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 09:19:26 --> Attempt to read property "numero_carta" on null
+in APPPATH\Views\decks\VdeckBuild.php on line 43.
+ 1 APPPATH\Views\decks\VdeckBuild.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "numero_carta" on null', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VdeckBuild.php', 43)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VdeckBuild.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('decks/VdeckBuild', [], true)
+ 5 APPPATH\Controllers\C_decks.php(73): view('decks/VdeckBuild', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->crearDeck('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 09:25:35 --> Attempt to read property "numero_carta" on null
+in APPPATH\Views\decks\VdeckBuild.php on line 45.
+ 1 APPPATH\Views\decks\VdeckBuild.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "numero_carta" on null', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VdeckBuild.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VdeckBuild.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('decks/VdeckBuild', [], true)
+ 5 APPPATH\Controllers\C_decks.php(73): view('decks/VdeckBuild', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->crearDeck('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 09:27:15 --> Attempt to read property "numero_carta" on null
+in APPPATH\Views\decks\VdeckBuild.php on line 45.
+ 1 APPPATH\Views\decks\VdeckBuild.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "numero_carta" on null', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VdeckBuild.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VdeckBuild.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('decks/VdeckBuild', [], true)
+ 5 APPPATH\Controllers\C_decks.php(73): view('decks/VdeckBuild', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->crearDeck('$1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
