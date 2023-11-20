@@ -1,0 +1,242 @@
+ERROR - 2023-11-19 09:53:42 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`digimontcg`.`decks`, CONSTRAINT `decks_ibfk_1` FOREIGN KEY (`idUser`) REFERENCES `usuarios` (`id`)) in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_decks.php(136): App\Models\M_digimonTCG->insertarDeck('1', 'Prueba')
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_decks->guardarDeckPasoDos()
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+#8 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-19 09:53:42 --> Cannot add or update a child row: a foreign key constraint fails (`digimontcg`.`decks`, CONSTRAINT `decks_ibfk_1` FOREIGN KEY (`idUser`) REFERENCES `usuarios` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `decks` (`idUser`, `nombre`, `fechaCreacion`) VALUES (:idUser:, :nombre:, :fechaCreacion:)', [...], false)
+ 2 APPPATH\Models\M_digimonTCG.php(66): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\C_decks.php(136): App\Models\M_digimonTCG->insertarDeck('1', 'Prueba')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->guardarDeckPasoDos()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 10:00:13 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`digimontcg`.`decks`, CONSTRAINT `decks_ibfk_1` FOREIGN KEY (`idUser`) REFERENCES `usuarios` (`id`)) in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_decks.php(137): App\Models\M_digimonTCG->insertarDeck('1', 'Prueba')
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_decks->guardarDeckPasoDos()
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+#8 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-19 10:00:13 --> Cannot add or update a child row: a foreign key constraint fails (`digimontcg`.`decks`, CONSTRAINT `decks_ibfk_1` FOREIGN KEY (`idUser`) REFERENCES `usuarios` (`id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `decks` (`idUser`, `nombre`, `fechaCreacion`) VALUES (:idUser:, :nombre:, :fechaCreacion:)', [...], false)
+ 2 APPPATH\Models\M_digimonTCG.php(66): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\C_decks.php(137): App\Models\M_digimonTCG->insertarDeck('1', 'Prueba')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->guardarDeckPasoDos()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 10:04:00 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\C_decks.php on line 140.
+ 1 APPPATH\Controllers\C_decks.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Controllers\\C_decks.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->guardarDeckPasoDos()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 11:19:05 --> mysqli_sql_exception: Unknown column '$idDeck' in 'where clause' in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cartas.n...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cartas.n...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cartas.n...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(191): CodeIgniter\Database\BaseConnection->query('SELECT cartas.n...')
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_decks.php(161): App\Models\M_digimonTCG->optenerCartasDeck('9')
+#5 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_decks->verDeck('9')
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-19 11:19:05 --> Unknown column '$idDeck' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\M_digimonTCG.php(191): CodeIgniter\Database\BaseConnection->query('SELECT cartas.numero_carta, cartas.nombre, cartas.url_imagen
+            FROM cartasdedecks
+            INNER JOIN cartas ON cartasdedecks.idCarta = cartas.numero_carta
+            WHERE cartasdedecks.idDeck = $idDeck;')
+ 2 APPPATH\Controllers\C_decks.php(161): App\Models\M_digimonTCG->optenerCartasDeck('9')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->verDeck('9')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 11:19:54 --> mysqli_sql_exception: Unknown column 'cartasdedecks.id' in 'where clause' in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cartas.n...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cartas.n...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cartas.n...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(191): CodeIgniter\Database\BaseConnection->query('SELECT cartas.n...')
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_decks.php(161): App\Models\M_digimonTCG->optenerCartasDeck('9')
+#5 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_decks->verDeck('9')
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-19 11:19:54 --> Unknown column 'cartasdedecks.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\M_digimonTCG.php(191): CodeIgniter\Database\BaseConnection->query('SELECT cartas.numero_carta, cartas.nombre, cartas.url_imagen
+            FROM cartasdedecks
+            INNER JOIN cartas ON cartasdedecks.idCarta = cartas.numero_carta
+            WHERE cartasdedecks.id = $idDeck;')
+ 2 APPPATH\Controllers\C_decks.php(161): App\Models\M_digimonTCG->optenerCartasDeck('9')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->verDeck('9')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 11:20:45 --> mysqli_sql_exception: Unknown column '$idDeck' in 'where clause' in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cartas.n...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cartas.n...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cartas.n...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(191): CodeIgniter\Database\BaseConnection->query('SELECT cartas.n...')
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_decks.php(161): App\Models\M_digimonTCG->optenerCartasDeck('9')
+#5 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_decks->verDeck('9')
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-19 11:20:45 --> Unknown column '$idDeck' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\M_digimonTCG.php(191): CodeIgniter\Database\BaseConnection->query('SELECT cartas.numero_carta, cartas.nombre, cartas.url_imagen
+            FROM cartasdedecks
+            INNER JOIN cartas ON cartasdedecks.idCarta = cartas.numero_carta
+            WHERE cartasdedecks.idDeck = $idDeck;')
+ 2 APPPATH\Controllers\C_decks.php(161): App\Models\M_digimonTCG->optenerCartasDeck('9')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->verDeck('9')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 11:20:46 --> mysqli_sql_exception: Unknown column '$idDeck' in 'where clause' in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cartas.n...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cartas.n...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cartas.n...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(191): CodeIgniter\Database\BaseConnection->query('SELECT cartas.n...')
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_decks.php(161): App\Models\M_digimonTCG->optenerCartasDeck('9')
+#5 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_decks->verDeck('9')
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-19 11:20:46 --> Unknown column '$idDeck' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\M_digimonTCG.php(191): CodeIgniter\Database\BaseConnection->query('SELECT cartas.numero_carta, cartas.nombre, cartas.url_imagen
+            FROM cartasdedecks
+            INNER JOIN cartas ON cartasdedecks.idCarta = cartas.numero_carta
+            WHERE cartasdedecks.idDeck = $idDeck;')
+ 2 APPPATH\Controllers\C_decks.php(161): App\Models\M_digimonTCG->optenerCartasDeck('9')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->verDeck('9')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 11:21:43 --> mysqli_sql_exception: Unknown column '$idDeck' in 'where clause' in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cartas.n...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cartas.n...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cartas.n...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(191): CodeIgniter\Database\BaseConnection->query('SELECT cartas.n...')
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_decks.php(161): App\Models\M_digimonTCG->optenerCartasDeck('9')
+#5 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_decks->verDeck('9')
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-19 11:21:43 --> Unknown column '$idDeck' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\M_digimonTCG.php(191): CodeIgniter\Database\BaseConnection->query('SELECT cartas.numero_carta, cartas.nombre, cartas.url_imagen
+            FROM cartasdedecks as cd
+            INNER JOIN cartas ON cd.idCarta = cartas.numero_carta
+            WHERE cd.idDeck = $idDeck;')
+ 2 APPPATH\Controllers\C_decks.php(161): App\Models\M_digimonTCG->optenerCartasDeck('9')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->verDeck('9')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 11:21:44 --> mysqli_sql_exception: Unknown column '$idDeck' in 'where clause' in C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\DigiMonchosTCG\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT cartas.n...', 0)
+#1 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT cartas.n...')
+#2 C:\xampp\htdocs\DigiMonchosTCG\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT cartas.n...')
+#3 C:\xampp\htdocs\DigiMonchosTCG\app\Models\M_digimonTCG.php(191): CodeIgniter\Database\BaseConnection->query('SELECT cartas.n...')
+#4 C:\xampp\htdocs\DigiMonchosTCG\app\Controllers\C_decks.php(161): App\Models\M_digimonTCG->optenerCartasDeck('9')
+#5 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(942): App\Controllers\C_decks->verDeck('9')
+#6 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+#7 C:\xampp\htdocs\DigiMonchosTCG\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\DigiMonchosTCG\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-19 11:21:44 --> Unknown column '$idDeck' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\M_digimonTCG.php(191): CodeIgniter\Database\BaseConnection->query('SELECT cartas.numero_carta, cartas.nombre, cartas.url_imagen
+            FROM cartasdedecks as cd
+            INNER JOIN cartas ON cd.idCarta = cartas.numero_carta
+            WHERE cd.idDeck = $idDeck;')
+ 2 APPPATH\Controllers\C_decks.php(161): App\Models\M_digimonTCG->optenerCartasDeck('9')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->verDeck('9')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 11:32:23 --> Undefined variable $user
+in APPPATH\Views\decks\VinicioDecks.php on line 2.
+ 1 APPPATH\Views\decks\VinicioDecks.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VinicioDecks.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VinicioDecks.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('decks/VinicioDecks', [], true)
+ 5 APPPATH\Controllers\C_decks.php(166): view('decks/VinicioDecks', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->verDeck('9')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 11:33:04 --> Undefined variable $user
+in APPPATH\Views\decks\VinicioDecks.php on line 2.
+ 1 APPPATH\Views\decks\VinicioDecks.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VinicioDecks.php', 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VinicioDecks.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('decks/VinicioDecks', [], true)
+ 5 APPPATH\Controllers\C_decks.php(166): view('decks/VinicioDecks', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->verDeck('9')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 11:33:27 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\decks\Vdeck.php on line 8.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('decks/Vdeck', [], true)
+ 4 APPPATH\Controllers\C_decks.php(166): view('decks/Vdeck', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->verDeck('9')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 13:37:50 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\decks\Vdeck.php on line 4.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('decks/Vdeck', [], true)
+ 4 APPPATH\Controllers\C_decks.php(167): view('decks/Vdeck', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->verDeck('9')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 15:13:18 --> Undefined variable $aviso
+in APPPATH\Views\admin\panel.php on line 4.
+ 1 APPPATH\Views\admin\panel.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aviso', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\admin\\panel.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\admin\\panel.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/panel', [], true)
+ 5 APPPATH\Controllers\C_admin.php(20): view('admin/panel')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_admin->panel()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_admin))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

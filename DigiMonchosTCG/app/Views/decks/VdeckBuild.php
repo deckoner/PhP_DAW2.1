@@ -36,22 +36,41 @@
 ?>
 
 <main>
+    
     <section class="deckEditor">
-        <?php 
-            if (isset($listaCartasDeck)) {
-                foreach ($listaCartasDeck as $c) {
-                    echo '<a href="'.base_url()."decks/crearDeck/".$c->numero_carta.'/true">
-                        <img src="'.$c->url_imagen.'" class="cardIMG">
-                    </a>';
+        <div>
+            <?php 
+                if (isset($errorDeck)) {
+                    echo "<p class='error'>$errorDeck</p><br>";
                 }
-            }
-        ?>
+                if (isset($listaCartasDeck)) {
+                    echo "<p>Numero de cartas: ".count($listaCartasDeck)."/55</p>";
+                    if (count($listaCartasDeck) == 55) {
+                        echo '<a href="'.base_url()."decks/guardarDeck".'" class="button">Guardar</a>';
+                    } else {
+                        echo '<a class="buttonDesactivado">Guardar</a>';
+                        echo "<span> Solo lo puedes guarda cuando tengas 55 cartas</span>";
+                    }
+                }
+            ?>
+        </div>
+        <section class="deckEditorViewCard">
+            <?php 
+                if (isset($listaCartasDeck)) {
+                    foreach ($listaCartasDeck as $c) {
+                        echo '<a href="'.base_url()."decks/crearDeck/".$c->numero_carta.'/true">
+                            <img src="'.$c->url_imagen.'" class="cardIMG">
+                        </a>';
+                    }
+                }
+            ?>
+        </section>
     </section>
 
     <section>
         <section class="PFiltros">
                 <?php 
-                    echo form_open(site_url().'coleccion');
+                    echo form_open(site_url().'decks/crearDeck');
                     echo "<table>";
 
                         echo '<tr>

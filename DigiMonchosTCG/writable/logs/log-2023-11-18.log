@@ -1,0 +1,44 @@
+CRITICAL - 2023-11-18 11:24:55 --> Attempt to read property "numero_carta" on string
+in APPPATH\Controllers\C_decks.php on line 30.
+ 1 APPPATH\Controllers\C_decks.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "numero_carta" on string', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Controllers\\C_decks.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->crearDeck('BT1-001', 'true')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 11:46:16 --> Call to undefined method CodeIgniter\Session\Session::save()
+in APPPATH\Controllers\C_decks.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->crearDeck('BT1-001', 'false')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 12:09:26 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\decks\VdeckBuild.php on line 40.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('decks/VdeckBuild', [], true)
+ 4 APPPATH\Controllers\C_decks.php(100): view('decks/VdeckBuild', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->crearDeck('BT1-010', 'false')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 12:15:13 --> Undefined variable $errorDeck
+in APPPATH\Views\decks\VdeckBuild.php on line 41.
+ 1 APPPATH\Views\decks\VdeckBuild.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $errorDeck', 'C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VdeckBuild.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\DigiMonchosTCG\\app\\Views\\decks\\VdeckBuild.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('decks/VdeckBuild', [], true)
+ 5 APPPATH\Controllers\C_decks.php(106): view('decks/VdeckBuild', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->crearDeck()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 12:15:55 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\decks\VdeckBuild.php on line 44.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('decks/VdeckBuild', [], true)
+ 4 APPPATH\Controllers\C_decks.php(106): view('decks/VdeckBuild', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_decks->crearDeck()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_decks))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,9 @@
+CRITICAL - 2023-11-20 09:35:10 --> syntax error, unexpected token "echo"
+in APPPATH\Views\admin\panel.php on line 69.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/panel', [], true)
+ 3 APPPATH\Controllers\C_admin.php(27): view('admin/panel')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\C_admin->panel()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_admin))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

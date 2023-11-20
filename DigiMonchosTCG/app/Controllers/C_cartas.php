@@ -29,6 +29,7 @@ class C_cartas extends BaseController {
         $datos['atributosLista'] = $this->modelo->optenerNombres("atributos");
         $datos['btsLista'] = $this->modelo->optenerBTsAbrev();
         $datos['costesLista'] = $costesLista;
+        $datos['rol'] = $this->session->get('usuarioRol');
 
         echo view('elementos/Vcabecera', $datos);
         echo view('cartas/Vcoleccion', $datos);
@@ -62,6 +63,7 @@ class C_cartas extends BaseController {
         $datos['atributosLista'] = $this->modelo->optenerNombres("atributos");
         $datos['btsLista'] = $this->modelo->optenerBTsAbrev();
         $datos['costesLista'] = $costesLista;
+        $datos['rol'] = $this->session->get('usuarioRol');
 
         echo view('elementos/Vcabecera', $datos);
         echo view('cartas/Vcoleccion', $datos);
@@ -70,6 +72,7 @@ class C_cartas extends BaseController {
 
     public function cartaInformacion($btNumber) {
         $carta = $this->modelo->obtenerCarta($btNumber);
+        $datos['rol'] = $this->session->get('usuarioRol');
 
         // Comprobamos si la carta existe para el titulo
         if (is_null($carta)) {

@@ -20,7 +20,28 @@
 			}
         </style>
 		<script type="text/javascript"> 
-		
+			window.onload = function () {
+				function cargarProvincias() {
+					let xhr = new XMLHttpRequest();
+					xhr.open("POST", "ruta_a_tu_script_php", true);
+					xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+					xhr.onreadystatechange = function() {
+						if (this.readyState == 4 && this.status == 200) {
+							let xml = this.responseXML;
+							let provincia = xml.getElementsByTagName("provincia");
+							let selectProvincia = document.getElementById("provincia");
+							selectProvincia.innerHTML = "<option value='0'>Elige una opción</option>";
+							for (let i = 0; i < provincia.length; i++) {
+								let codigo = provincia[i].getElementsByTagName("codigo")[0].childNodes[0].nodeValue;
+								let nombre = provincia[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue;
+								selectProvincia.innerHTML += "<option value='" + codigo + "'>" + nombre + "</option>";
+							}
+						}
+					};
+					xhr.send("tipo=provincia");
+					}
+					cargarProvincias()
+			}
 		</script>
 	</head>
 	<body>

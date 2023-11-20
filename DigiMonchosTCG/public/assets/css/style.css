@@ -6,6 +6,7 @@
     --oscuro-dos: #303030;
     --oscuro-tres: #232323;
     --claro: #FFFFFF;
+    --rojo: #890e0e;
 
     /* !Colores solo para las cartas */
     --red: #e6002d;
@@ -86,6 +87,35 @@ input {
     font-size: 1.3em;
 
     border-radius: 2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    background-color: var(--oscuro-dos);
+    border-radius: 1em;
+    color: var(--complementario1);
+}
+
+table th, table td {
+    padding: 0.5em;
+    border-bottom: 1px solid var(--oscuro);
+    text-align: left;
+}
+
+table th {
+    background-color: var(--oscuro);
+    color: var(--complementario1);
+}
+
+table tr:nth-child(even) {
+    background-color: var(--oscuro-tres);
+}
+
+table tr:hover {
+    background-color: var(--oscuro);
+    cursor: pointer;
 }
 
 /* *Clases */
@@ -364,20 +394,48 @@ input {
 
     padding-left: 0.3em;
     padding-right: 0.3em;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .deckEditor {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 0.5em;
-    justify-content: center;
-
     height: 20em;
+
+    padding: 0;
 
     overflow: hidden;
     overflow-x: hidden;
     overflow-y: scroll;
+}
+
+.deckEditor > div {
+    position: sticky;
+    top: 0;
+
+    height: fit-content;
+
+    background-color: var(--complementario1);
+
+    margin: 0;
+    padding: 0;
+}
+
+.deckEditor > div > p {
+    color: var(--oscuro-dos);
+    font-size: 1.5em;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+.deckEditor > div > span {
+    font-size: 0.8em;
+    color: var(--oscuro-dos);
 }
 
 .deckEditor::-webkit-scrollbar {
@@ -393,6 +451,73 @@ input {
     border-radius: 0.2em;
 }
 
+.deckEditorViewCard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    justify-content: center;
+
+    margin-top: 0;
+}
+
 .cardIMG {
     width: 10em;
+}
+
+.error {
+    color: var(--rojo) !important;
+
+    text-align: left !important;
+
+    margin: 0;
+    padding-left: 1em !important;
+}
+
+.button {
+    display: inline-block;
+
+    background-color: var(--oscuro-dos);
+
+    border: none;
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    padding: 0.2rem;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+
+    margin: 0.3em;
+}
+
+.buttonDesactivado {
+    display: inline-block;
+
+    background-color: var(--oscuro-dos);
+
+    border: none;
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    padding: 0.2rem;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    margin: 0.3em;
+
+    opacity: 0.6;
+
+    cursor: not-allowed;
+ }
+
+.titulo-deck {
+    font-weight: bold;
+    color: var(--complementario1);
+}
+
+.titulo-deck p {
+    margin: 0;
+    font-size: 0.8em;
+    color: var(--complementario2);
 }
